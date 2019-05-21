@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RecurrencePicker'
   s.version          = '0.1.2'
-  s.summary          = 'A short description of RecurrencePicker.'
+  s.summary          = 'An event recurrence rule picker similar to iOS system calendar.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+An event recurrence rule picker similar to iOS system calendar.
+
+RecurrencePicker supports 6 languages: English, Russian, Simplified Chinese, Traditional Chinese, Korean, Japanese.
                        DESC
 
     s.homepage         = 'https://github.com/petalvlad@gmail.com/RecurrencePicker'
