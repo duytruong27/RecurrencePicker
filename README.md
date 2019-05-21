@@ -1,4 +1,4 @@
-# RecurrencePicker
+# RecurrencePicker 
 An event recurrence rule picker similar to iOS system calendar. 
 
 ![Example](Gif/RecurrencePickerExample.gif "RecurrencePickerExample")
