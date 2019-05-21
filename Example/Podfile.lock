@@ -1,0 +1,16 @@
+PODS:
+  - RecurrencePicker (0.1.2)
+
+DEPENDENCIES:
+  - RecurrencePicker (from `../`)
+
+EXTERNAL SOURCES:
+  RecurrencePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RecurrencePicker: 90010959e5276c66d52cd233c07e2827217d8e16
+
+PODFILE CHECKSUM: f2129ece23903e7d1299391f2c2c67538eab1a0f
+
+COCOAPODS: 1.5.3

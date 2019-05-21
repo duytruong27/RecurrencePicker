@@ -1,0 +1,6 @@
+framework module Pods_RecurrencePicker_Example {
+  umbrella header "Pods-RecurrencePicker_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

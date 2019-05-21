@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RecurrencePicker_Example' do
+  pod 'RecurrencePicker', :path => '../'
+
+  target 'RecurrencePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
