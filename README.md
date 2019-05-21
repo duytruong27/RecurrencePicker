@@ -7,7 +7,7 @@
 
 An event recurrence rule picker similar to iOS system calendar. 
 
-![Example](Gif/RecurrencePickerExample.gif "RecurrencePickerExample")
+![Example](https://github.com/teambition/RecurrencePicker/raw/master/Gif/RecurrencePickerExample.gif "RecurrencePickerExample")
 
 ## Installation
 

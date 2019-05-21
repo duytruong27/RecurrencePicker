@@ -23,12 +23,10 @@ An event recurrence rule picker similar to iOS system calendar.
 RecurrencePicker supports 6 languages: English, Russian, Simplified Chinese, Traditional Chinese, Korean, Japanese.
                        DESC
 
-    s.homepage         = 'https://github.com/petalvlad@gmail.com/RecurrencePicker'
-    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.homepage         = 'https://github.com/petalvlad/RecurrencePicker'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'petalvlad@gmail.com' => 'petalvlad@gmail.com' }
-    s.source           = { :git => 'https://github.com/petalvlad@gmail.com/RecurrencePicker.git', :tag => s.version.to_s }
-    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.source           = { :git => 'https://github.com/petalvlad/RecurrencePicker.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '10.0'
     s.swift_version = '4.2'
@@ -39,7 +37,4 @@ RecurrencePicker supports 6 languages: English, Russian, Simplified Chinese, Tra
        'RecurrencePicker' => ['RecurrencePicker/**/*.{png,xib,strings,lproj}']
     }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
