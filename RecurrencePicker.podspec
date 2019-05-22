@@ -32,7 +32,7 @@ RecurrencePicker supports 6 languages: English, Russian, Simplified Chinese, Tra
     s.swift_version = '4.2'
 
     s.source_files = 'RecurrencePicker/Classes/**/*'
-    s.resources = 'RecurrencePicker/**/*.{png,xib,strings,lproj}'
+    s.resources = 'RecurrencePicker/**/*.{png,xib,strings,lproj,js}'
     s.resource_bundles = {
        'RecurrencePicker' => ['RecurrencePicker/**/*.{png,xib,strings,lproj,js}']
     }
