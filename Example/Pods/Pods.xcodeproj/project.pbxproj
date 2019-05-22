@@ -83,12 +83,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0002FCD9269F30C70377BC111C5B5154 /* Pods_RecurrencePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RecurrencePicker_Tests.framework; path = "Pods-RecurrencePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		084EBA02454CAF85C8285F4C720DE627 /* RecurrencePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RecurrencePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0002FCD9269F30C70377BC111C5B5154 /* Pods_RecurrencePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrencePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		084EBA02454CAF85C8285F4C720DE627 /* RecurrencePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RecurrencePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A8441B54ECEBB29801216CBEA09966A /* Pods-RecurrencePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrencePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0BBD1AA7A2184ECC780F966BB8211F87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0BBD1AA7A2184ECC780F966BB8211F87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1273D916EDF65C45F09B3CA020A9DF6B /* Pods-RecurrencePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		12B94129FF9946D4E9A96B45CD141378 /* RecurrencePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RecurrencePicker.bundle; path = "RecurrencePicker-RecurrencePicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B94129FF9946D4E9A96B45CD141378 /* RecurrencePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecurrencePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D947F8D4C6DDC28C4CC0AFE2A7ECA6 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = en.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
 		273019D50D6C0A283135E1585B81E32B /* EKWeekday+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKWeekday+Sequence.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/EKWeekday+Sequence.swift"; sourceTree = "<group>"; };
 		2778451D44483663CF2A9EF6048405C2 /* InternationalControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternationalControl.swift; path = RecurrencePicker/Classes/RecurrencePicker/InternationalControl.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		2DB87AD3670590DA4F617957E07C4E64 /* PickerViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PickerViewCell.xib; path = RecurrencePicker/Assets/PickerViewCell.xib; sourceTree = "<group>"; };
 		3338250F9AF313EFAF51C51BE36C87BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34A75C58EC293C6A3028190727C4BD32 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ko.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
-		4189F6826861402A8DBCAF0E2610B9FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4189F6826861402A8DBCAF0E2610B9FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41C73238E549505A0F768A94DE0BCA00 /* Pods-RecurrencePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrencePicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		44B8E6CD0D98C4F3741E7BBC8AE1A48B /* Pods-RecurrencePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Tests.modulemap"; sourceTree = "<group>"; };
 		466F6AB3FBDDD3B6A13832860CBF60D1 /* MonthOrDaySelectorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MonthOrDaySelectorCell.xib; path = RecurrencePicker/Assets/MonthOrDaySelectorCell.xib; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 		4C2AA36FA59971FBA6B99666A7026FF5 /* RecurrencePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrencePicker-umbrella.h"; sourceTree = "<group>"; };
 		521E0A9516455BDFFB10FF2A9C146599 /* RecurrenceRule+Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Text.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Text.swift"; sourceTree = "<group>"; };
 		522C0656EF1C68CA47EE284AB5C945C9 /* RecurrencePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RecurrencePicker.modulemap; sourceTree = "<group>"; };
-		5657E160013A86719585C276FF4B0C64 /* Pods_RecurrencePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RecurrencePicker_Example.framework; path = "Pods-RecurrencePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		570D1DD43D1846291DEBE1CF06876502 /* RecurrencePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RecurrencePicker.framework; path = RecurrencePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5657E160013A86719585C276FF4B0C64 /* Pods_RecurrencePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrencePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570D1DD43D1846291DEBE1CF06876502 /* RecurrencePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrencePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C156ACB5D10BD8797818FD0D8CC2C8E /* Pods-RecurrencePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrencePicker_Example-resources.sh"; sourceTree = "<group>"; };
 		5F1F596D1B0A4A93D69E0EE3960C00E7 /* RecurrenceRule+Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Definition.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Definition.swift"; sourceTree = "<group>"; };
 		60D65BE1F0223A7AC005B7BA8A536E4D /* RecurrencePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrencePickerDelegate.swift; path = RecurrencePicker/Classes/RecurrencePicker/RecurrencePickerDelegate.swift; sourceTree = "<group>"; };
@@ -127,9 +127,9 @@
 		8ACB20F307D89B01F5A6093D5BEC154E /* Pods-RecurrencePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrencePicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		8D47303977A09C56BA25B1DA38EEAD9A /* Pods-RecurrencePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrencePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F08285AB55109F43DA4E56069BB4CAA /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+Comparison.swift"; sourceTree = "<group>"; };
-		90F7B0C0720F090E442E88B0B5CA85E4 /* nlp.js */ = {isa = PBXFileReference; includeInIndex = 1; path = nlp.js; sourceTree = "<group>"; };
+		90F7B0C0720F090E442E88B0B5CA85E4 /* nlp.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = nlp.js; sourceTree = "<group>"; };
 		9157873CDDE2DFF8FED0A7C05C7C7B0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E0673A6DC9C7A51B2C035C31BFC1E5 /* Pods-RecurrencePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		941A84E08D150DF9382CA7BC586E5BBF /* PickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerViewCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/PickerViewCell.swift; sourceTree = "<group>"; };
 		9A9666DB1D90D1DD51300C5A765FD074 /* SelectorItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorItemCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/SelectorItemCell.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecurrencePicker.xcconfig; sourceTree = "<group>"; };
 		EE79CD93297625F4177BA5187241DF50 /* RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RRule.swift; sourceTree = "<group>"; };
 		F0D4E58F6A8F8F138B8649041BD86B39 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = RecurrencePicker/Classes/RecurrencePicker/Constants.swift; sourceTree = "<group>"; };
-		F17AAEE051A025A96BD7E724E7866C43 /* rrule.js */ = {isa = PBXFileReference; includeInIndex = 1; path = rrule.js; sourceTree = "<group>"; };
+		F17AAEE051A025A96BD7E724E7866C43 /* rrule.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = rrule.js; sourceTree = "<group>"; };
 		F77E663076DD978A546C2866AE281017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8A884B95F9C6996A29F4590F18C4831 /* Pods-RecurrencePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8EC600CA3BB309B6B4FD5590FDEA25A /* Pods-RecurrencePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -299,7 +299,6 @@
 				90F7B0C0720F090E442E88B0B5CA85E4 /* nlp.js */,
 				F17AAEE051A025A96BD7E724E7866C43 /* rrule.js */,
 			);
-			name = lib;
 			path = lib;
 			sourceTree = "<group>";
 		};
@@ -954,8 +953,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
