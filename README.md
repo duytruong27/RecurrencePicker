@@ -72,11 +72,6 @@ let ruleString = "RRULE:FREQ=WEEKLY;INTERVAL=2;WKST=MO;BYDAY=TU,WE,FR\nDTSTART:2
 
 Also Russian language and formatting a rule to text form was changed.
 
-```swift
-func recurrencePicker(_ picker: RecurrencePicker, didPickRecurrence recurrenceRule: RecurrenceRule?) {
-// do something, if recurrenceRule is nil, that means "never repeat".
-}
-```
 
 ## Minimum Requirement
 iOS 10.0
