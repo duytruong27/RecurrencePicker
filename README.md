@@ -87,6 +87,7 @@ let language: RecurrencePickerLanguage = ...
 let recurrenceRuleText = recurrenceRule?.toText(of: language, occurrenceDate: Date())
 print(recurrenceRuleText)
 // Event will occur every 2 weeks on Tuesday, Wednesday and Friday.
+// Каждые 2 недели - вторник, среда и пятница
 // 事件将每2周于星期二、星期三和星期五重复一次。
 // 行程每2週的星期二、星期三和星期五重複一次。
 // 2주마다 화요일, 수요일 및 금요일에 이벤트 반복
