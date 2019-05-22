@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RecurrencePicker'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'An event recurrence rule picker similar to iOS system calendar.'
 
 # This description is used to generate tags and improve search results.

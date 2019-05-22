@@ -13,7 +13,7 @@ class ViewController: UIViewController, RecurrencePickerDelegate {
     
     @IBAction func tap(_ sender: Any) {
         let recurrencePicker = RecurrencePicker(recurrenceRule: nil)
-        recurrencePicker.language = .russian
+//        recurrencePicker.language = .russian
         recurrencePicker.calendar = Calendar.current
         recurrencePicker.tintColor = UIColor.blue
         
