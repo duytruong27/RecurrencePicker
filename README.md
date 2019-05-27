@@ -1,6 +1,5 @@
 # RecurrencePicker
 
-[![CI Status](https://img.shields.io/travis/petalvlad/RecurrencePicker.svg?style=flat)](https://travis-ci.org/petalvlad/RecurrencePicker)
 [![Version](https://img.shields.io/cocoapods/v/RecurrencePicker.svg?style=flat)](https://cocoapods.org/pods/RecurrencePicker)
 [![License](https://img.shields.io/cocoapods/l/RecurrencePicker.svg?style=flat)](https://cocoapods.org/pods/RecurrencePicker)
 [![Platform](https://img.shields.io/cocoapods/p/RecurrencePicker.svg?style=flat)](https://cocoapods.org/pods/RecurrencePicker)
