@@ -1,5 +1,5 @@
 PODS:
-  - RecurrencePicker (0.1.2)
+  - RecurrencePicker (0.2.3)
 
 DEPENDENCIES:
   - RecurrencePicker (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RecurrencePicker: 90010959e5276c66d52cd233c07e2827217d8e16
+  RecurrencePicker: a00c7eb543e2d68eab20e351cbdca5a3fbb7c714
 
 PODFILE CHECKSUM: f2129ece23903e7d1299391f2c2c67538eab1a0f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.0

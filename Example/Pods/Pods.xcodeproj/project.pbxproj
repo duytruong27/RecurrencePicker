@@ -7,462 +7,430 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0777F1DD53CF4D027F6500764423A245 /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B147D941CE90F7D1BCDF74373BD4D48 /* checkmark@3x.png */; };
-		1060A549334E11DE77CD827DDE5AED04 /* RecurrenceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499921FB0D84D17C2BD5531A658B9CB8 /* RecurrenceRule.swift */; };
-		18FE53817DFE7D0B4A7DE2445897381F /* Pods-RecurrencePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8441B54ECEBB29801216CBEA09966A /* Pods-RecurrencePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B46CBB6CD020A4930EA1807B2A7431D /* RecurrenceRule+Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D75B8613A83B8BFEEEA9CB3CB7D288 /* RecurrenceRule+Generator.swift */; };
-		1B6BA54EFC9E53006FCB92A154DE5156 /* SelectorItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB0033BC19D7A9D7C473DCA8E58C1D2 /* SelectorItemCell.xib */; };
-		1EC04D7D96FC0D85F5747083C0CD2893 /* PickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB87AD3670590DA4F617957E07C4E64 /* PickerViewCell.xib */; };
-		286BBEE08D05CAC83A12E8A54B9E116B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		298704CD44DA1634E109CFE1DB314D2B /* RecurrencePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CEFB2A3EE7BF315F31F86960990D4F /* RecurrencePicker-dummy.m */; };
-		2B3E641BEB62FA68BC949D4F0B744936 /* MonthOrDaySelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792DD9FC4FA133FA04B1257478AB807 /* MonthOrDaySelectorCell.swift */; };
-		30BDB5D516C2E8C5226E2C11827B9E22 /* JavaScriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645DB3A8332352F9EB82FDCCF359CD1E /* JavaScriptBridge.swift */; };
-		37A3B299C11095EA504358BEF2C1191E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B5667987D6D0BD3DB7C771E48FB60 /* String+Extension.swift */; };
-		432F06E7F095285B1285DFE873A23B4E /* InternationalControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778451D44483663CF2A9EF6048405C2 /* InternationalControl.swift */; };
-		4C468B456A4979FA6827F6A3C0612934 /* CustomRecurrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CEC4BC2640EBF0DA2385BE707757A5 /* CustomRecurrenceViewController.swift */; };
-		586ABCC92E7796BB583157ACD27A70AD /* GridSelectorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A922A5892130E6184FD41F0638C070E /* GridSelectorLayout.swift */; };
-		5AF34C2090FC96B7F98AF55CD6D93EC4 /* RecurrencePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D65BE1F0223A7AC005B7BA8A536E4D /* RecurrencePickerDelegate.swift */; };
-		5B6081F41CDB9F4C15B8DF6033348F80 /* RecurrenceRule+Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1F596D1B0A4A93D69E0EE3960C00E7 /* RecurrenceRule+Definition.swift */; };
-		5CCAB21E98D001014EBF62317BB3FB75 /* RecurrenceFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96886078A66996929F0B3DFC37BF948 /* RecurrenceFrequency.swift */; };
-		5FF6083FBA2E2EE27E8319B540E3F5B6 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD70BD370349C299FBA619A311972F22 /* checkmark@2x.png */; };
-		63DFEFC66505883EA8D437E48ECF03BF /* NSDate+Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08285AB55109F43DA4E56069BB4CAA /* NSDate+Comparison.swift */; };
-		63F24944C9F46A3CE9240EBE7D01B57B /* EKWeekday+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273019D50D6C0A283135E1585B81E32B /* EKWeekday+Sequence.swift */; };
-		7A1B5B9AE3CFF571B9C101D0938AC56A /* nlp.js in Sources */ = {isa = PBXBuildFile; fileRef = 90F7B0C0720F090E442E88B0B5CA85E4 /* nlp.js */; };
-		7B6EAA407B8A24EAB7B1FE09E1CBDBA4 /* ExclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245CAB43628CA80616D5C1D2FAF47EB /* ExclusionDate.swift */; };
-		7C1A7A17F43F1D7E44C9CB5320541929 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D4E58F6A8F8F138B8649041BD86B39 /* Constants.swift */; };
-		80F2259C19E43E4ACB7F5B9A4327609D /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B147D941CE90F7D1BCDF74373BD4D48 /* checkmark@3x.png */; };
-		83E1567362213B870E2B6D410FA0B652 /* RecurrenceRule+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E0A9516455BDFFB10FF2A9C146599 /* RecurrenceRule+Text.swift */; };
-		8539F8C232FDCD0D05247696B9D2C0CC /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE79CD93297625F4177BA5187241DF50 /* RRule.swift */; };
-		8F43BADC950775434B6DC9151D85D8AD /* RecurrencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AA9E0AF4252E0E29AFCBF1437FB7BA /* RecurrencePicker.swift */; };
-		A8AFF3544F3F01CBF2D2EDA9D6F1C616 /* RecurrenceFrequency+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87294C904F235ADA8224C3DEB9217B90 /* RecurrenceFrequency+Sequence.swift */; };
-		AE1FCF80F1B02F8DB9EF25B980A065F3 /* SelectorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9666DB1D90D1DD51300C5A765FD074 /* SelectorItemCell.swift */; };
-		AF566B958A681CAF01337E12DF5A085D /* Pods-RecurrencePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB20F307D89B01F5A6093D5BEC154E /* Pods-RecurrencePicker_Tests-dummy.m */; };
-		B0254145D6369D81E17B9E8126193D49 /* rrule.js in Sources */ = {isa = PBXBuildFile; fileRef = F17AAEE051A025A96BD7E724E7866C43 /* rrule.js */; };
-		B7F9960475F2CE30CF88A73D2820FA9D /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A84E08D150DF9382CA7BC586E5BBF /* PickerViewCell.swift */; };
-		B8948F8BEAA4573D0377A2128BCAA1AD /* Iterators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9DE89E423BC8C62A7A3712CE95BBEC /* Iterators.swift */; };
-		C1B30B4D2235C9730858A586A53E62F0 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD70BD370349C299FBA619A311972F22 /* checkmark@2x.png */; };
-		C1B6E76B615A5B8BA142C88FA047615C /* Pods-RecurrencePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41C73238E549505A0F768A94DE0BCA00 /* Pods-RecurrencePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C76841728A311F7CB2E188865D9C8ED9 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ABA13D6DC532B7DC1A7A967BD3CFEE /* EKWeekday+RRule.swift */; };
-		D12F1732FD1F07A8C3DFDC6E1848AF23 /* InclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4304BBEA0DCDF386F5D37434459677 /* InclusionDate.swift */; };
-		D26AD201EA3212F731A83EF97FD6A144 /* RecurrencePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2AA36FA59971FBA6B99666A7026FF5 /* RecurrencePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2B6E8572BFA8DC36C94BEF28B392E30 /* Pods-RecurrencePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F949B473FF70CF07B912996281547E54 /* Pods-RecurrencePicker_Example-dummy.m */; };
-		D3E6F96B027F675B848F2DE970B46578 /* SelectorItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB0033BC19D7A9D7C473DCA8E58C1D2 /* SelectorItemCell.xib */; };
-		D5FB96AB03A4F4D0AEE387F158937599 /* RecurrencePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 289F4A5EF3F3514758D9CE71A8FA815C /* RecurrencePicker.strings */; };
-		DB2DFBB8437A934FF9517098A2F1F22B /* RecurrencePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 289F4A5EF3F3514758D9CE71A8FA815C /* RecurrencePicker.strings */; };
-		DCBB2B9AED5E8D2BFFADF88CB1640E0E /* MonthOrDaySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466F6AB3FBDDD3B6A13832860CBF60D1 /* MonthOrDaySelectorCell.xib */; };
-		E4EE48EDAF7D926D8F35492A74854482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		EAD796B60BC061D51B05E342BF568166 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		EBE3EE7250847DD0FA5000CC5669AD66 /* RecurrencePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12B94129FF9946D4E9A96B45CD141378 /* RecurrencePicker.bundle */; };
-		F0728F4D4E96C69D4D2F4028894813C6 /* PickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB87AD3670590DA4F617957E07C4E64 /* PickerViewCell.xib */; };
-		F88DB62D56BD14A0210E266DC7E7C299 /* RRuleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CD47AA4FF01B4E9FB3EE18FE23ECA1 /* RRuleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA1FF290F87ED47C1EB91818EE9D1570 /* MonthOrDaySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466F6AB3FBDDD3B6A13832860CBF60D1 /* MonthOrDaySelectorCell.xib */; };
+		01F53A4E77CA16789655C4BFC3202652 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0747C8A7099C8EE6F3F08FB21C9C16F /* String+Extension.swift */; };
+		0E3BC0C1B99876F0FD1AE91F1244E41A /* NSDate+Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B4BEC005B1C0C3D237503EA3E4E1C /* NSDate+Comparison.swift */; };
+		0F2D3D69310DED42224E14F5158A410E /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB2ACE563C6F6D37902CCF88134ECD8 /* checkmark@2x.png */; };
+		136C9E3B61A89D71F2B09F4B659B8E32 /* EKWeekday+RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37E31D2F26B135B45D722FB2AB8776D /* EKWeekday+RRule.swift */; };
+		13E0DFE409303072624CCC7310CD2696 /* RRuleSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = FC43F08607538F86F78D348860FF53A7 /* RRuleSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1779E3EB5635835DE739691D0E00D2F2 /* Pods-RecurrencePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA10A9B6917506B05B590C35AC17541B /* Pods-RecurrencePicker_Tests-dummy.m */; };
+		1A3E9CACAEB1DEE37AAA822D2048D478 /* nlp.js in Sources */ = {isa = PBXBuildFile; fileRef = 1C47925960687888E832EFC7FE3937B7 /* nlp.js */; };
+		230854B610367F83E93452B7545A7006 /* RecurrenceFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F3C22508DA5C96880027FD1B105B76 /* RecurrenceFrequency.swift */; };
+		24B60336315F228BE1801B708F2661AC /* SelectorItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BC4F6D606FB1E4D3570EB8921BF903 /* SelectorItemCell.xib */; };
+		258C0E0785CBA0B15F2AC70643056F91 /* rrule.js in Sources */ = {isa = PBXBuildFile; fileRef = C03B381501C5A4ADF519FB4902703A87 /* rrule.js */; };
+		3020E75596CFF0F44EC7C0D0BF73CFC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3585537F10E66A4841ECBDBC8D625AB7 /* rrule.js in Resources */ = {isa = PBXBuildFile; fileRef = C03B381501C5A4ADF519FB4902703A87 /* rrule.js */; };
+		384E18F16FB1DEF7C63A2FD985E375EC /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C84FE43C59E5433663FA77DB1E303 /* PickerViewCell.swift */; };
+		46E7FD14213B0FA0A9501F73F2360CDD /* RecurrencePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFCC8FD6B6C988844D1EF1D48A020F /* RecurrencePicker-dummy.m */; };
+		4B3E38D4D8F9618A9824DD52BF8C1A51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C62A7C983A8694C962EBE05A6B95E9 /* Constants.swift */; };
+		5428239F11E4D33B412A75E288A1C798 /* Iterators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B132614CCF93C4D8F8EC8FC483812DAD /* Iterators.swift */; };
+		58B70FBB7FDDEC538942D6E217C7E6B6 /* RRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86E2BBFA84D790811A23C22E8F9D40 /* RRule.swift */; };
+		5FC8E3B1DD8CC612A1DD5830347EA54C /* nlp.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C47925960687888E832EFC7FE3937B7 /* nlp.js */; };
+		60ABE667241BE5BD7610702C257B93AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		60F048ABD7011B118462B044DBC87158 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		65C8B66AF7029D4FD77A8FA81DD90FD5 /* RecurrenceFrequency+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7D2CF47E26D0F80AF90AEFC5302DBD /* RecurrenceFrequency+Sequence.swift */; };
+		672F8FC634EEBF934600922833393C79 /* MonthOrDaySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CF37BC86F54245967A03CD784CF9B5 /* MonthOrDaySelectorCell.xib */; };
+		6A01940CB41B6F1B8AC14939E2D4E474 /* CustomRecurrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E27D924D2F66CD92659856AEAFD24 /* CustomRecurrenceViewController.swift */; };
+		6B6190E337BB3A639C59C9F73B17927D /* Pods-RecurrencePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D04CA3145875D34BBFD04CA244AFC19 /* Pods-RecurrencePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759008F0E238536702F97048AF585DF6 /* PickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB4E9F6CE4B22E68F448FA4E57AB940 /* PickerViewCell.xib */; };
+		78AE409A30BF9108951237D0EB4A631F /* RecurrencePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 799A0A0B2D6715B3891756FC4A137A01 /* RecurrencePicker.strings */; };
+		81832525F31676F4BF5D84609E4962C3 /* ExclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A606C656C4EBCC8C545012A29A95A7 /* ExclusionDate.swift */; };
+		85ACC0A6B6609E17037E8AC3C97255B8 /* PickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB4E9F6CE4B22E68F448FA4E57AB940 /* PickerViewCell.xib */; };
+		8C542FC0C5585176996ED7B3453DA94E /* nlp.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C47925960687888E832EFC7FE3937B7 /* nlp.js */; };
+		9CFFE5DA054E7FBF16E30F6B4EB5806C /* RecurrenceRule+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C65BAF97A516E9026EBEDDD5E114E7 /* RecurrenceRule+Text.swift */; };
+		A5C93A95DBB113E9AEBBAD2BFB1103F9 /* GridSelectorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2F95B4A79E9D35EABD5BD7905B504 /* GridSelectorLayout.swift */; };
+		A775AD5CDD070B3E92BDDCE4D1904D9E /* rrule.js in Resources */ = {isa = PBXBuildFile; fileRef = C03B381501C5A4ADF519FB4902703A87 /* rrule.js */; };
+		AE1DA97C2F427613D17E8FBB93F0E757 /* Pods-RecurrencePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CA6C34A47E5A2BFCE60A0F1CCA67F9 /* Pods-RecurrencePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B853C691E8AA2004CDDF9311DBCD0020 /* JavaScriptBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE064D87569F5A8045E8605D885A15 /* JavaScriptBridge.swift */; };
+		B85842AB713CAE8FC03BE650D32F48FA /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1CE44AB493D3AC09BB711CDEC34E21 /* checkmark@3x.png */; };
+		BFEFD794E95B5F8280AA9900F296A465 /* RecurrenceRule+Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF1D32FD7B2F012A9CB7873B240404 /* RecurrenceRule+Definition.swift */; };
+		C2E71F60B7BB64E57CA76AF99CAEE33A /* RecurrenceRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F0BC8AF233A050FE6CD1ECFAB1D68 /* RecurrenceRule.swift */; };
+		C37EBF700D626C14DFB16B28C9333385 /* RecurrencePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B066DDB3D41EBA55199F519FDE2DF99 /* RecurrencePickerDelegate.swift */; };
+		C5C0EED071CC802BC4612C7C1CD6AD62 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB2ACE563C6F6D37902CCF88134ECD8 /* checkmark@2x.png */; };
+		CB2C2972A3BE85C09C5F8E8561B41764 /* RecurrencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B393B2F2B13980FC541C753918032EC /* RecurrencePicker.swift */; };
+		CB863DA85164DF0BC39F4DB154D6D8E4 /* RecurrencePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F18786E0ADB3401E8D5D380BB2D2029 /* RecurrencePicker.bundle */; };
+		CFF53C40AAE7553D29B639CCCAE239A9 /* InclusionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505751472ADF02C4D3494212213315D3 /* InclusionDate.swift */; };
+		D4E919588EFE9398A56965FF203E99BF /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB1CE44AB493D3AC09BB711CDEC34E21 /* checkmark@3x.png */; };
+		D7B2EFAD695CFB6D3A6AEFE831AC6DCA /* MonthOrDaySelectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CF37BC86F54245967A03CD784CF9B5 /* MonthOrDaySelectorCell.xib */; };
+		DE6C603F3DF07EF265805DD6D28808EA /* SelectorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66447030E889CE888C4DCADE408918A /* SelectorItemCell.swift */; };
+		EB4756E09669B22E69CC78770849DE7A /* InternationalControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087697A7DE8E8ED8795122C4D840DCBB /* InternationalControl.swift */; };
+		F267E6B6A679F16C69353696D1F1BC35 /* Pods-RecurrencePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF0196D34069277477AEA44B2A7145D /* Pods-RecurrencePicker_Example-dummy.m */; };
+		F7CB5B2FD89B51DCB07965FD21B6ADF5 /* RecurrencePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BB6703F1AA0EF4A1880D8A94D3E233 /* RecurrencePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA0451F197567AB1FB819BAE777A97CC /* RecurrenceRule+Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413FB51E787C40AA46FC1CCF55E3936 /* RecurrenceRule+Generator.swift */; };
+		FA9426A5916F12F5675C1095F572FCF2 /* EKWeekday+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D12D5DA639E0CB17CEFC81308ADACA /* EKWeekday+Sequence.swift */; };
+		FAF01889F5E94E9D20AC39FAE0F9DE0B /* RecurrencePicker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 799A0A0B2D6715B3891756FC4A137A01 /* RecurrencePicker.strings */; };
+		FAFDA4058E69392E8204EB880DD678D8 /* MonthOrDaySelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E38B7D25A478F94B78B606F9300DAC /* MonthOrDaySelectorCell.swift */; };
+		FC7EE41E89FCA576E5699489287DC20D /* SelectorItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83BC4F6D606FB1E4D3570EB8921BF903 /* SelectorItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D1F18E60036214433813FA58B1E408A /* PBXContainerItemProxy */ = {
+		24DCAA120A93082A22BD2A7BAC787E81 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 34B06202BD5DD870A1AB9A84206D26B6;
+			remoteGlobalIDString = 0B7AC06D7D710077E58A02CCF74FCF39;
+			remoteInfo = "RecurrencePicker-RecurrencePicker";
+		};
+		4B8DFBDE4C89E9136D499CEA132B5765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3EE606881E0B17652A8739C157C98A;
 			remoteInfo = "Pods-RecurrencePicker_Example";
 		};
-		DB5FC54807D72572B5CED34875FDC8D8 /* PBXContainerItemProxy */ = {
+		C9998342E6DCD43CD8FA41749BED69A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE7AC8B08FFDCCCBAEB3BBB703475507;
+			remoteGlobalIDString = 9E247AF072458454A4C4F60A5ECDAF6B;
 			remoteInfo = RecurrencePicker;
-		};
-		F63270E8BCF67B68F7F9363D50F832CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFC5177EA656E840E6D40C5A9E498A03;
-			remoteInfo = "RecurrencePicker-RecurrencePicker";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0002FCD9269F30C70377BC111C5B5154 /* Pods_RecurrencePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrencePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		084EBA02454CAF85C8285F4C720DE627 /* RecurrencePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RecurrencePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0A8441B54ECEBB29801216CBEA09966A /* Pods-RecurrencePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrencePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0BBD1AA7A2184ECC780F966BB8211F87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		1273D916EDF65C45F09B3CA020A9DF6B /* Pods-RecurrencePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		12B94129FF9946D4E9A96B45CD141378 /* RecurrencePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecurrencePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		23D947F8D4C6DDC28C4CC0AFE2A7ECA6 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = en.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
-		273019D50D6C0A283135E1585B81E32B /* EKWeekday+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKWeekday+Sequence.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/EKWeekday+Sequence.swift"; sourceTree = "<group>"; };
-		2778451D44483663CF2A9EF6048405C2 /* InternationalControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternationalControl.swift; path = RecurrencePicker/Classes/RecurrencePicker/InternationalControl.swift; sourceTree = "<group>"; };
-		29CD47AA4FF01B4E9FB3EE18FE23ECA1 /* RRuleSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RRuleSwift.h; sourceTree = "<group>"; };
-		2A922A5892130E6184FD41F0638C070E /* GridSelectorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridSelectorLayout.swift; path = RecurrencePicker/Classes/RecurrencePicker/GridSelectorLayout.swift; sourceTree = "<group>"; };
-		2B7FDB1995A08C5BCF947E9503193161 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ja.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
-		2DB87AD3670590DA4F617957E07C4E64 /* PickerViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PickerViewCell.xib; path = RecurrencePicker/Assets/PickerViewCell.xib; sourceTree = "<group>"; };
-		3338250F9AF313EFAF51C51BE36C87BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34A75C58EC293C6A3028190727C4BD32 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ko.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
-		4189F6826861402A8DBCAF0E2610B9FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		41C73238E549505A0F768A94DE0BCA00 /* Pods-RecurrencePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrencePicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		44B8E6CD0D98C4F3741E7BBC8AE1A48B /* Pods-RecurrencePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Tests.modulemap"; sourceTree = "<group>"; };
-		466F6AB3FBDDD3B6A13832860CBF60D1 /* MonthOrDaySelectorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MonthOrDaySelectorCell.xib; path = RecurrencePicker/Assets/MonthOrDaySelectorCell.xib; sourceTree = "<group>"; };
-		47D75B8613A83B8BFEEEA9CB3CB7D288 /* RecurrenceRule+Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Generator.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Generator.swift"; sourceTree = "<group>"; };
-		48ABA13D6DC532B7DC1A7A967BD3CFEE /* EKWeekday+RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKWeekday+RRule.swift"; sourceTree = "<group>"; };
-		499921FB0D84D17C2BD5531A658B9CB8 /* RecurrenceRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrenceRule.swift; sourceTree = "<group>"; };
-		4A657DBAFB8F3045D2915520ECF45585 /* Pods-RecurrencePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C2AA36FA59971FBA6B99666A7026FF5 /* RecurrencePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrencePicker-umbrella.h"; sourceTree = "<group>"; };
-		521E0A9516455BDFFB10FF2A9C146599 /* RecurrenceRule+Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Text.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Text.swift"; sourceTree = "<group>"; };
-		522C0656EF1C68CA47EE284AB5C945C9 /* RecurrencePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RecurrencePicker.modulemap; sourceTree = "<group>"; };
-		5657E160013A86719585C276FF4B0C64 /* Pods_RecurrencePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrencePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		570D1DD43D1846291DEBE1CF06876502 /* RecurrencePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrencePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C156ACB5D10BD8797818FD0D8CC2C8E /* Pods-RecurrencePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrencePicker_Example-resources.sh"; sourceTree = "<group>"; };
-		5F1F596D1B0A4A93D69E0EE3960C00E7 /* RecurrenceRule+Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Definition.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Definition.swift"; sourceTree = "<group>"; };
-		60D65BE1F0223A7AC005B7BA8A536E4D /* RecurrencePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrencePickerDelegate.swift; path = RecurrencePicker/Classes/RecurrencePicker/RecurrencePickerDelegate.swift; sourceTree = "<group>"; };
-		6245CAB43628CA80616D5C1D2FAF47EB /* ExclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExclusionDate.swift; sourceTree = "<group>"; };
-		645DB3A8332352F9EB82FDCCF359CD1E /* JavaScriptBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JavaScriptBridge.swift; sourceTree = "<group>"; };
-		646B5667987D6D0BD3DB7C771E48FB60 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/String+Extension.swift"; sourceTree = "<group>"; };
-		647B9002B1826DEA9EAAD934AA628B94 /* ResourceBundle-RecurrencePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrencePicker-Info.plist"; sourceTree = "<group>"; };
-		6B56E71A34068E0C30339801CE5B2D25 /* Pods-RecurrencePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrencePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73E9593767596CABCB5F332B1BDF967B /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = "zh-Hans.lproj/RecurrencePicker.strings"; sourceTree = "<group>"; };
-		7A12698878BEFD2EA478E3BD61E9C1E3 /* RecurrencePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrencePicker-prefix.pch"; sourceTree = "<group>"; };
-		81BD30615E540484E953AE2ADE3BD01E /* Pods-RecurrencePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrencePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		87294C904F235ADA8224C3DEB9217B90 /* RecurrenceFrequency+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceFrequency+Sequence.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceFrequency+Sequence.swift"; sourceTree = "<group>"; };
-		87CEC4BC2640EBF0DA2385BE707757A5 /* CustomRecurrenceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRecurrenceViewController.swift; path = RecurrencePicker/Classes/RecurrencePicker/CustomRecurrenceViewController.swift; sourceTree = "<group>"; };
-		8ACB20F307D89B01F5A6093D5BEC154E /* Pods-RecurrencePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrencePicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		8D47303977A09C56BA25B1DA38EEAD9A /* Pods-RecurrencePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrencePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8F08285AB55109F43DA4E56069BB4CAA /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+Comparison.swift"; sourceTree = "<group>"; };
-		90F7B0C0720F090E442E88B0B5CA85E4 /* nlp.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = nlp.js; sourceTree = "<group>"; };
-		9157873CDDE2DFF8FED0A7C05C7C7B0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93E0673A6DC9C7A51B2C035C31BFC1E5 /* Pods-RecurrencePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		941A84E08D150DF9382CA7BC586E5BBF /* PickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerViewCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/PickerViewCell.swift; sourceTree = "<group>"; };
-		9A9666DB1D90D1DD51300C5A765FD074 /* SelectorItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorItemCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/SelectorItemCell.swift; sourceTree = "<group>"; };
-		9B147D941CE90F7D1BCDF74373BD4D48 /* checkmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@3x.png"; path = "RecurrencePicker/Assets/checkmark@3x.png"; sourceTree = "<group>"; };
-		9DB0033BC19D7A9D7C473DCA8E58C1D2 /* SelectorItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SelectorItemCell.xib; path = RecurrencePicker/Assets/SelectorItemCell.xib; sourceTree = "<group>"; };
-		A183D868FC63941741E62748A17F8C6C /* Pods-RecurrencePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrencePicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		ADBEA8B9D23FF902E942DCB36C249114 /* Pods-RecurrencePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Example.modulemap"; sourceTree = "<group>"; };
-		B2AA9E0AF4252E0E29AFCBF1437FB7BA /* RecurrencePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrencePicker.swift; path = RecurrencePicker/Classes/RecurrencePicker/RecurrencePicker.swift; sourceTree = "<group>"; };
-		B792DD9FC4FA133FA04B1257478AB807 /* MonthOrDaySelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthOrDaySelectorCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/MonthOrDaySelectorCell.swift; sourceTree = "<group>"; };
-		C096F89156FFEF4DB34DB79B35A8B457 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ru.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
-		C7CEFB2A3EE7BF315F31F86960990D4F /* RecurrencePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecurrencePicker-dummy.m"; sourceTree = "<group>"; };
-		CC9DE89E423BC8C62A7A3712CE95BBEC /* Iterators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Iterators.swift; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D96886078A66996929F0B3DFC37BF948 /* RecurrenceFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrenceFrequency.swift; sourceTree = "<group>"; };
-		DB12A8B9321970648EDEA9212E54BB70 /* Pods-RecurrencePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrencePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DC4304BBEA0DCDF386F5D37434459677 /* InclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InclusionDate.swift; sourceTree = "<group>"; };
-		E180BC4C365DF27DFEFDC98D702473F5 /* Pods-RecurrencePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C1CB8E2B364BB946398448AE44B7FE /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = "zh-Hant.lproj/RecurrencePicker.strings"; sourceTree = "<group>"; };
-		E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecurrencePicker.xcconfig; sourceTree = "<group>"; };
-		EE79CD93297625F4177BA5187241DF50 /* RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RRule.swift; sourceTree = "<group>"; };
-		F0D4E58F6A8F8F138B8649041BD86B39 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = RecurrencePicker/Classes/RecurrencePicker/Constants.swift; sourceTree = "<group>"; };
-		F17AAEE051A025A96BD7E724E7866C43 /* rrule.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = rrule.js; sourceTree = "<group>"; };
-		F77E663076DD978A546C2866AE281017 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8A884B95F9C6996A29F4590F18C4831 /* Pods-RecurrencePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F8EC600CA3BB309B6B4FD5590FDEA25A /* Pods-RecurrencePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F949B473FF70CF07B912996281547E54 /* Pods-RecurrencePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrencePicker_Example-dummy.m"; sourceTree = "<group>"; };
-		FD70BD370349C299FBA619A311972F22 /* checkmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@2x.png"; path = "RecurrencePicker/Assets/checkmark@2x.png"; sourceTree = "<group>"; };
+		03CFD0E898BF8654E7EF8EF57E2F84DD /* RecurrencePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RecurrencePicker.modulemap; sourceTree = "<group>"; };
+		075A1B359C88B24755E31861C65CB694 /* Pods-RecurrencePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrencePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		087697A7DE8E8ED8795122C4D840DCBB /* InternationalControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternationalControl.swift; path = RecurrencePicker/Classes/RecurrencePicker/InternationalControl.swift; sourceTree = "<group>"; };
+		08F3C22508DA5C96880027FD1B105B76 /* RecurrenceFrequency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrenceFrequency.swift; sourceTree = "<group>"; };
+		0A2C40EF9E4A8F397E3AFE21E0B6BF69 /* RecurrencePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrencePicker-prefix.pch"; sourceTree = "<group>"; };
+		0D04CA3145875D34BBFD04CA244AFC19 /* Pods-RecurrencePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrencePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		1819ED05AC98537DE8CBE67DF9291FA9 /* Pods-RecurrencePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1C47925960687888E832EFC7FE3937B7 /* nlp.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = nlp.js; sourceTree = "<group>"; };
+		2445114964C4948DD1E22C0F0D581B34 /* RecurrencePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RecurrencePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2BF0196D34069277477AEA44B2A7145D /* Pods-RecurrencePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrencePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		2F18786E0ADB3401E8D5D380BB2D2029 /* RecurrencePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecurrencePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CF37BC86F54245967A03CD784CF9B5 /* MonthOrDaySelectorCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MonthOrDaySelectorCell.xib; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ED061BB0974472DD2A80AA99DB5BEFF /* Pods-RecurrencePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		43E38B7D25A478F94B78B606F9300DAC /* MonthOrDaySelectorCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthOrDaySelectorCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/MonthOrDaySelectorCell.swift; sourceTree = "<group>"; };
+		4B35C0689CCC5EF294245D285B4CCB0D /* Pods-RecurrencePicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		4D783D34124CF30A483DDC2BF149F007 /* Pods-RecurrencePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4FAA9CE201EA1524C52B30620DC3E4C3 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = "zh-Hant.lproj/RecurrencePicker.strings"; sourceTree = "<group>"; };
+		4FC13E5CC31F981B26452881C80B8D46 /* Pods-RecurrencePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		505751472ADF02C4D3494212213315D3 /* InclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InclusionDate.swift; sourceTree = "<group>"; };
+		594A83EB023A8941CFBD80AA32FEE603 /* Pods-RecurrencePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecurrencePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D86E2BBFA84D790811A23C22E8F9D40 /* RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RRule.swift; sourceTree = "<group>"; };
+		69C62A7C983A8694C962EBE05A6B95E9 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = RecurrencePicker/Classes/RecurrencePicker/Constants.swift; sourceTree = "<group>"; };
+		6D3C84FE43C59E5433663FA77DB1E303 /* PickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerViewCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/PickerViewCell.swift; sourceTree = "<group>"; };
+		6F10A1E69FC01EB0328BD8330CA0825C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		72B79B6DDE58E0A3CEE40B9EB04E8F11 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ru.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
+		738C2FE30C3762A4F7AB8E46B606A751 /* RecurrencePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecurrencePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C65BAF97A516E9026EBEDDD5E114E7 /* RecurrenceRule+Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Text.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Text.swift"; sourceTree = "<group>"; };
+		74BB6703F1AA0EF4A1880D8A94D3E233 /* RecurrencePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecurrencePicker-umbrella.h"; sourceTree = "<group>"; };
+		77BF1D32FD7B2F012A9CB7873B240404 /* RecurrenceRule+Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Definition.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Definition.swift"; sourceTree = "<group>"; };
+		7806B9D23B10C7897F1DA22DA379178D /* Pods-RecurrencePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C4E27D924D2F66CD92659856AEAFD24 /* CustomRecurrenceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRecurrenceViewController.swift; path = RecurrencePicker/Classes/RecurrencePicker/CustomRecurrenceViewController.swift; sourceTree = "<group>"; };
+		83A2F95B4A79E9D35EABD5BD7905B504 /* GridSelectorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridSelectorLayout.swift; path = RecurrencePicker/Classes/RecurrencePicker/GridSelectorLayout.swift; sourceTree = "<group>"; };
+		83BC4F6D606FB1E4D3570EB8921BF903 /* SelectorItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SelectorItemCell.xib; sourceTree = "<group>"; };
+		882F21E61E1E756666D459ED6CAB2C3A /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ko.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
+		8CB2ACE563C6F6D37902CCF88134ECD8 /* checkmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		9413FB51E787C40AA46FC1CCF55E3936 /* RecurrenceRule+Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceRule+Generator.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceRule+Generator.swift"; sourceTree = "<group>"; };
+		95D12D5DA639E0CB17CEFC81308ADACA /* EKWeekday+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKWeekday+Sequence.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/EKWeekday+Sequence.swift"; sourceTree = "<group>"; };
+		96913BDB7FF9C52D332FAA2E45A93BE3 /* Pods_RecurrencePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrencePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B066DDB3D41EBA55199F519FDE2DF99 /* RecurrencePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrencePickerDelegate.swift; path = RecurrencePicker/Classes/RecurrencePicker/RecurrencePickerDelegate.swift; sourceTree = "<group>"; };
+		9B393B2F2B13980FC541C753918032EC /* RecurrencePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecurrencePicker.swift; path = RecurrencePicker/Classes/RecurrencePicker/RecurrencePicker.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB4E9F6CE4B22E68F448FA4E57AB940 /* PickerViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PickerViewCell.xib; sourceTree = "<group>"; };
+		9EDE064D87569F5A8045E8605D885A15 /* JavaScriptBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JavaScriptBridge.swift; sourceTree = "<group>"; };
+		A01F0BC8AF233A050FE6CD1ECFAB1D68 /* RecurrenceRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecurrenceRule.swift; sourceTree = "<group>"; };
+		A2CA6C34A47E5A2BFCE60A0F1CCA67F9 /* Pods-RecurrencePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecurrencePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD56060829223E4AA1610E0364B4C90E /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = "zh-Hans.lproj/RecurrencePicker.strings"; sourceTree = "<group>"; };
+		AF7D2CF47E26D0F80AF90AEFC5302DBD /* RecurrenceFrequency+Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RecurrenceFrequency+Sequence.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/RecurrenceFrequency+Sequence.swift"; sourceTree = "<group>"; };
+		B0747C8A7099C8EE6F3F08FB21C9C16F /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "RecurrencePicker/Classes/RecurrencePicker/String+Extension.swift"; sourceTree = "<group>"; };
+		B132614CCF93C4D8F8EC8FC483812DAD /* Iterators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Iterators.swift; sourceTree = "<group>"; };
+		B7A606C656C4EBCC8C545012A29A95A7 /* ExclusionDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExclusionDate.swift; sourceTree = "<group>"; };
+		BAD27D41C04C1BC89A49B75839D9498F /* RecurrencePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecurrencePicker.xcconfig; sourceTree = "<group>"; };
+		C03B381501C5A4ADF519FB4902703A87 /* rrule.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = rrule.js; sourceTree = "<group>"; };
+		C6F8882C9EA20FA18490D2FBC467C3AD /* Pods-RecurrencePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecurrencePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C73BC36456E08BEB5EE59BE4DB0E2103 /* ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist"; sourceTree = "<group>"; };
+		CCA6D40630D7DBEA6FC9DE03DE80C7FC /* Pods_RecurrencePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecurrencePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AFCC8FD6B6C988844D1EF1D48A020F /* RecurrencePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecurrencePicker-dummy.m"; sourceTree = "<group>"; };
+		D466DC0A8CCC793EA0FFD92A4B512060 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D53AA5EDAC3B14229C1F6AB936AFD2BA /* Pods-RecurrencePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecurrencePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D66447030E889CE888C4DCADE408918A /* SelectorItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorItemCell.swift; path = RecurrencePicker/Classes/RecurrencePicker/SelectorItemCell.swift; sourceTree = "<group>"; };
+		DE9F95B898354A0E2FDEF89D278E0A01 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = en.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
+		DF1B4BEC005B1C0C3D237503EA3E4E1C /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+Comparison.swift"; sourceTree = "<group>"; };
+		E008DEA1F4E7B4FA7DA4A9CA1FF4DAFE /* Pods-RecurrencePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Example.modulemap"; sourceTree = "<group>"; };
+		EB1CE44AB493D3AC09BB711CDEC34E21 /* checkmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "checkmark@3x.png"; sourceTree = "<group>"; };
+		EC0D925080E2D79D6B359253502FF81A /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ja.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
+		EC97A0A105C0B4E5854CBC6BD4FABA00 /* Pods-RecurrencePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		F37E31D2F26B135B45D722FB2AB8776D /* EKWeekday+RRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EKWeekday+RRule.swift"; sourceTree = "<group>"; };
+		F3ECA0519C02E0439A7E2D861D1CC79F /* RecurrencePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RecurrencePicker-Info.plist"; sourceTree = "<group>"; };
+		F92DC7A407285F12AF7DFFB0D6FF2B9C /* Pods-RecurrencePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecurrencePicker_Example-Info.plist"; sourceTree = "<group>"; };
+		FA10A9B6917506B05B590C35AC17541B /* Pods-RecurrencePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecurrencePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC43F08607538F86F78D348860FF53A7 /* RRuleSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RRuleSwift.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3242D8F1A96319CD7133EA9356585954 /* Frameworks */ = {
+		64CF46F7F39310E0123B15378FF41BF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F048ABD7011B118462B044DBC87158 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7704DFEB8BF2B603F6D471DEFC680BDA /* Frameworks */ = {
+		9B5353A4E59B3D13DB9AEFEBD86D52A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD796B60BC061D51B05E342BF568166 /* Foundation.framework in Frameworks */,
+				3020E75596CFF0F44EC7C0D0BF73CFC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD85AD1090C1BBEB7915D42F5AF44846 /* Frameworks */ = {
+		9ECE9BB87AA76A529D105019DD05821E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4EE48EDAF7D926D8F35492A74854482 /* Foundation.framework in Frameworks */,
+				60ABE667241BE5BD7610702C257B93AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9EE4127833506B805D183D0BDFB00BE /* Frameworks */ = {
+		FA02FE143421635E4ECBB4AC97FDE100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				286BBEE08D05CAC83A12E8A54B9E116B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		087AD8B0794837327476C52EFBD26AD6 /* Pods-RecurrencePicker_Example */ = {
+		12E70CC2051AB71F19DA319F0EAE7A75 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				F77E663076DD978A546C2866AE281017 /* Info.plist */,
-				ADBEA8B9D23FF902E942DCB36C249114 /* Pods-RecurrencePicker_Example.modulemap */,
-				6B56E71A34068E0C30339801CE5B2D25 /* Pods-RecurrencePicker_Example-acknowledgements.markdown */,
-				F8EC600CA3BB309B6B4FD5590FDEA25A /* Pods-RecurrencePicker_Example-acknowledgements.plist */,
-				F949B473FF70CF07B912996281547E54 /* Pods-RecurrencePicker_Example-dummy.m */,
-				81BD30615E540484E953AE2ADE3BD01E /* Pods-RecurrencePicker_Example-frameworks.sh */,
-				5C156ACB5D10BD8797818FD0D8CC2C8E /* Pods-RecurrencePicker_Example-resources.sh */,
-				41C73238E549505A0F768A94DE0BCA00 /* Pods-RecurrencePicker_Example-umbrella.h */,
-				E180BC4C365DF27DFEFDC98D702473F5 /* Pods-RecurrencePicker_Example.debug.xcconfig */,
-				1273D916EDF65C45F09B3CA020A9DF6B /* Pods-RecurrencePicker_Example.release.xcconfig */,
-			);
-			name = "Pods-RecurrencePicker_Example";
-			path = "Target Support Files/Pods-RecurrencePicker_Example";
-			sourceTree = "<group>";
-		};
-		0C3542DBA11062FD1C54480D096C1924 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0BBD1AA7A2184ECC780F966BB8211F87 /* LICENSE */,
-				4189F6826861402A8DBCAF0E2610B9FE /* README.md */,
-				084EBA02454CAF85C8285F4C720DE627 /* RecurrencePicker.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1ACBE84718C6F71111F49837532E3B06 /* LocalizedStrings */ = {
-			isa = PBXGroup;
-			children = (
-				289F4A5EF3F3514758D9CE71A8FA815C /* RecurrencePicker.strings */,
-			);
-			name = LocalizedStrings;
-			path = RecurrencePicker/Assets/LocalizedStrings;
-			sourceTree = "<group>";
-		};
-		2144E54DC7BA0336F9741F45813C54A8 /* RecurrencePicker */ = {
-			isa = PBXGroup;
-			children = (
-				F0D4E58F6A8F8F138B8649041BD86B39 /* Constants.swift */,
-				87CEC4BC2640EBF0DA2385BE707757A5 /* CustomRecurrenceViewController.swift */,
-				273019D50D6C0A283135E1585B81E32B /* EKWeekday+Sequence.swift */,
-				2A922A5892130E6184FD41F0638C070E /* GridSelectorLayout.swift */,
-				2778451D44483663CF2A9EF6048405C2 /* InternationalControl.swift */,
-				B792DD9FC4FA133FA04B1257478AB807 /* MonthOrDaySelectorCell.swift */,
-				941A84E08D150DF9382CA7BC586E5BBF /* PickerViewCell.swift */,
-				87294C904F235ADA8224C3DEB9217B90 /* RecurrenceFrequency+Sequence.swift */,
-				B2AA9E0AF4252E0E29AFCBF1437FB7BA /* RecurrencePicker.swift */,
-				60D65BE1F0223A7AC005B7BA8A536E4D /* RecurrencePickerDelegate.swift */,
-				5F1F596D1B0A4A93D69E0EE3960C00E7 /* RecurrenceRule+Definition.swift */,
-				47D75B8613A83B8BFEEEA9CB3CB7D288 /* RecurrenceRule+Generator.swift */,
-				521E0A9516455BDFFB10FF2A9C146599 /* RecurrenceRule+Text.swift */,
-				9A9666DB1D90D1DD51300C5A765FD074 /* SelectorItemCell.swift */,
-				646B5667987D6D0BD3DB7C771E48FB60 /* String+Extension.swift */,
-				0C3542DBA11062FD1C54480D096C1924 /* Pod */,
-				B55D033171B4EC4DE9F4A99B57867A00 /* Resources */,
-				28C118521209B3F18A76D222CB65607A /* RRule */,
-				CB0E139288E8D0104BDC671A33FFF7FC /* Support Files */,
-			);
-			name = RecurrencePicker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		28C118521209B3F18A76D222CB65607A /* RRule */ = {
-			isa = PBXGroup;
-			children = (
-				48ABA13D6DC532B7DC1A7A967BD3CFEE /* EKWeekday+RRule.swift */,
-				6245CAB43628CA80616D5C1D2FAF47EB /* ExclusionDate.swift */,
-				DC4304BBEA0DCDF386F5D37434459677 /* InclusionDate.swift */,
-				CC9DE89E423BC8C62A7A3712CE95BBEC /* Iterators.swift */,
-				645DB3A8332352F9EB82FDCCF359CD1E /* JavaScriptBridge.swift */,
-				8F08285AB55109F43DA4E56069BB4CAA /* NSDate+Comparison.swift */,
-				D96886078A66996929F0B3DFC37BF948 /* RecurrenceFrequency.swift */,
-				499921FB0D84D17C2BD5531A658B9CB8 /* RecurrenceRule.swift */,
-				EE79CD93297625F4177BA5187241DF50 /* RRule.swift */,
-				29CD47AA4FF01B4E9FB3EE18FE23ECA1 /* RRuleSwift.h */,
-				6E26836CCB1F0F4C3CA2367CF9BE8DD7 /* lib */,
-			);
-			name = RRule;
-			path = RecurrencePicker/Classes/RecurrencePicker/RRule;
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		64A9C5654090B103B00315681D3F0CF7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2144E54DC7BA0336F9741F45813C54A8 /* RecurrencePicker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6E26836CCB1F0F4C3CA2367CF9BE8DD7 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				90F7B0C0720F090E442E88B0B5CA85E4 /* nlp.js */,
-				F17AAEE051A025A96BD7E724E7866C43 /* rrule.js */,
+				1C47925960687888E832EFC7FE3937B7 /* nlp.js */,
+				C03B381501C5A4ADF519FB4902703A87 /* rrule.js */,
 			);
 			path = lib;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		3B9C2926F8DD7ACCE83D7077011A92A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				64A9C5654090B103B00315681D3F0CF7 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F19489B5E17EAA526F965D1319F1BB94 /* Products */,
-				CC04C376515B86D1581397784100A7F2 /* Targets Support Files */,
+				D466DC0A8CCC793EA0FFD92A4B512060 /* LICENSE */,
+				6F10A1E69FC01EB0328BD8330CA0825C /* README.md */,
+				2445114964C4948DD1E22C0F0D581B34 /* RecurrencePicker.podspec */,
 			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		908F001C823D32C9C8F92BD70FF5BAE9 /* Pods-RecurrencePicker_Tests */ = {
+		5B65634672F7431C491C41B9B0373EBC /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3338250F9AF313EFAF51C51BE36C87BF /* Info.plist */,
-				44B8E6CD0D98C4F3741E7BBC8AE1A48B /* Pods-RecurrencePicker_Tests.modulemap */,
-				8D47303977A09C56BA25B1DA38EEAD9A /* Pods-RecurrencePicker_Tests-acknowledgements.markdown */,
-				F8A884B95F9C6996A29F4590F18C4831 /* Pods-RecurrencePicker_Tests-acknowledgements.plist */,
-				8ACB20F307D89B01F5A6093D5BEC154E /* Pods-RecurrencePicker_Tests-dummy.m */,
-				DB12A8B9321970648EDEA9212E54BB70 /* Pods-RecurrencePicker_Tests-frameworks.sh */,
-				A183D868FC63941741E62748A17F8C6C /* Pods-RecurrencePicker_Tests-resources.sh */,
-				0A8441B54ECEBB29801216CBEA09966A /* Pods-RecurrencePicker_Tests-umbrella.h */,
-				4A657DBAFB8F3045D2915520ECF45585 /* Pods-RecurrencePicker_Tests.debug.xcconfig */,
-				93E0673A6DC9C7A51B2C035C31BFC1E5 /* Pods-RecurrencePicker_Tests.release.xcconfig */,
+				8CB2ACE563C6F6D37902CCF88134ECD8 /* checkmark@2x.png */,
+				EB1CE44AB493D3AC09BB711CDEC34E21 /* checkmark@3x.png */,
+				31CF37BC86F54245967A03CD784CF9B5 /* MonthOrDaySelectorCell.xib */,
+				9DB4E9F6CE4B22E68F448FA4E57AB940 /* PickerViewCell.xib */,
+				83BC4F6D606FB1E4D3570EB8921BF903 /* SelectorItemCell.xib */,
+				F3938922EFCCC616D85CB70B651BE7C2 /* LocalizedStrings */,
+			);
+			name = Assets;
+			path = RecurrencePicker/Assets;
+			sourceTree = "<group>";
+		};
+		7FE99E98C82D7AAE2BEA680E1CCC371D /* Pods-RecurrencePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC97A0A105C0B4E5854CBC6BD4FABA00 /* Pods-RecurrencePicker_Tests.modulemap */,
+				075A1B359C88B24755E31861C65CB694 /* Pods-RecurrencePicker_Tests-acknowledgements.markdown */,
+				7806B9D23B10C7897F1DA22DA379178D /* Pods-RecurrencePicker_Tests-acknowledgements.plist */,
+				FA10A9B6917506B05B590C35AC17541B /* Pods-RecurrencePicker_Tests-dummy.m */,
+				4B35C0689CCC5EF294245D285B4CCB0D /* Pods-RecurrencePicker_Tests-Info.plist */,
+				A2CA6C34A47E5A2BFCE60A0F1CCA67F9 /* Pods-RecurrencePicker_Tests-umbrella.h */,
+				594A83EB023A8941CFBD80AA32FEE603 /* Pods-RecurrencePicker_Tests.debug.xcconfig */,
+				1819ED05AC98537DE8CBE67DF9291FA9 /* Pods-RecurrencePicker_Tests.release.xcconfig */,
 			);
 			name = "Pods-RecurrencePicker_Tests";
 			path = "Target Support Files/Pods-RecurrencePicker_Tests";
 			sourceTree = "<group>";
 		};
-		B55D033171B4EC4DE9F4A99B57867A00 /* Resources */ = {
+		9094FE49294E458388AE7AA33E9A36D8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD70BD370349C299FBA619A311972F22 /* checkmark@2x.png */,
-				9B147D941CE90F7D1BCDF74373BD4D48 /* checkmark@3x.png */,
-				466F6AB3FBDDD3B6A13832860CBF60D1 /* MonthOrDaySelectorCell.xib */,
-				2DB87AD3670590DA4F617957E07C4E64 /* PickerViewCell.xib */,
-				9DB0033BC19D7A9D7C473DCA8E58C1D2 /* SelectorItemCell.xib */,
-				1ACBE84718C6F71111F49837532E3B06 /* LocalizedStrings */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB0E139288E8D0104BDC671A33FFF7FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9157873CDDE2DFF8FED0A7C05C7C7B0E /* Info.plist */,
-				522C0656EF1C68CA47EE284AB5C945C9 /* RecurrencePicker.modulemap */,
-				E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */,
-				C7CEFB2A3EE7BF315F31F86960990D4F /* RecurrencePicker-dummy.m */,
-				7A12698878BEFD2EA478E3BD61E9C1E3 /* RecurrencePicker-prefix.pch */,
-				4C2AA36FA59971FBA6B99666A7026FF5 /* RecurrencePicker-umbrella.h */,
-				647B9002B1826DEA9EAAD934AA628B94 /* ResourceBundle-RecurrencePicker-Info.plist */,
+				03CFD0E898BF8654E7EF8EF57E2F84DD /* RecurrencePicker.modulemap */,
+				BAD27D41C04C1BC89A49B75839D9498F /* RecurrencePicker.xcconfig */,
+				D1AFCC8FD6B6C988844D1EF1D48A020F /* RecurrencePicker-dummy.m */,
+				F3ECA0519C02E0439A7E2D861D1CC79F /* RecurrencePicker-Info.plist */,
+				0A2C40EF9E4A8F397E3AFE21E0B6BF69 /* RecurrencePicker-prefix.pch */,
+				74BB6703F1AA0EF4A1880D8A94D3E233 /* RecurrencePicker-umbrella.h */,
+				C73BC36456E08BEB5EE59BE4DB0E2103 /* ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RecurrencePicker";
 			sourceTree = "<group>";
 		};
-		CC04C376515B86D1581397784100A7F2 /* Targets Support Files */ = {
+		947B53AD3ABC394720453976BF4C1935 /* RecurrencePicker */ = {
 			isa = PBXGroup;
 			children = (
-				087AD8B0794837327476C52EFBD26AD6 /* Pods-RecurrencePicker_Example */,
-				908F001C823D32C9C8F92BD70FF5BAE9 /* Pods-RecurrencePicker_Tests */,
+				69C62A7C983A8694C962EBE05A6B95E9 /* Constants.swift */,
+				7C4E27D924D2F66CD92659856AEAFD24 /* CustomRecurrenceViewController.swift */,
+				95D12D5DA639E0CB17CEFC81308ADACA /* EKWeekday+Sequence.swift */,
+				83A2F95B4A79E9D35EABD5BD7905B504 /* GridSelectorLayout.swift */,
+				087697A7DE8E8ED8795122C4D840DCBB /* InternationalControl.swift */,
+				43E38B7D25A478F94B78B606F9300DAC /* MonthOrDaySelectorCell.swift */,
+				6D3C84FE43C59E5433663FA77DB1E303 /* PickerViewCell.swift */,
+				AF7D2CF47E26D0F80AF90AEFC5302DBD /* RecurrenceFrequency+Sequence.swift */,
+				9B393B2F2B13980FC541C753918032EC /* RecurrencePicker.swift */,
+				9B066DDB3D41EBA55199F519FDE2DF99 /* RecurrencePickerDelegate.swift */,
+				77BF1D32FD7B2F012A9CB7873B240404 /* RecurrenceRule+Definition.swift */,
+				9413FB51E787C40AA46FC1CCF55E3936 /* RecurrenceRule+Generator.swift */,
+				73C65BAF97A516E9026EBEDDD5E114E7 /* RecurrenceRule+Text.swift */,
+				D66447030E889CE888C4DCADE408918A /* SelectorItemCell.swift */,
+				B0747C8A7099C8EE6F3F08FB21C9C16F /* String+Extension.swift */,
+				3B9C2926F8DD7ACCE83D7077011A92A0 /* Pod */,
+				E626EFCA096CD7C6602CD29C77DB5528 /* Resources */,
+				BA1A83513E7EA106B30196E45C7975C1 /* RRule */,
+				9094FE49294E458388AE7AA33E9A36D8 /* Support Files */,
+			);
+			name = RecurrencePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9D27938A5EAF4D9A18FB43B12303AC3B /* Pods-RecurrencePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E008DEA1F4E7B4FA7DA4A9CA1FF4DAFE /* Pods-RecurrencePicker_Example.modulemap */,
+				D53AA5EDAC3B14229C1F6AB936AFD2BA /* Pods-RecurrencePicker_Example-acknowledgements.markdown */,
+				4FC13E5CC31F981B26452881C80B8D46 /* Pods-RecurrencePicker_Example-acknowledgements.plist */,
+				2BF0196D34069277477AEA44B2A7145D /* Pods-RecurrencePicker_Example-dummy.m */,
+				C6F8882C9EA20FA18490D2FBC467C3AD /* Pods-RecurrencePicker_Example-frameworks.sh */,
+				F92DC7A407285F12AF7DFFB0D6FF2B9C /* Pods-RecurrencePicker_Example-Info.plist */,
+				0D04CA3145875D34BBFD04CA244AFC19 /* Pods-RecurrencePicker_Example-umbrella.h */,
+				4D783D34124CF30A483DDC2BF149F007 /* Pods-RecurrencePicker_Example.debug.xcconfig */,
+				3ED061BB0974472DD2A80AA99DB5BEFF /* Pods-RecurrencePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-RecurrencePicker_Example";
+			path = "Target Support Files/Pods-RecurrencePicker_Example";
+			sourceTree = "<group>";
+		};
+		AFC194B2B2245BA4B3759FD6A3574EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA6D40630D7DBEA6FC9DE03DE80C7FC /* Pods_RecurrencePicker_Example.framework */,
+				96913BDB7FF9C52D332FAA2E45A93BE3 /* Pods_RecurrencePicker_Tests.framework */,
+				2F18786E0ADB3401E8D5D380BB2D2029 /* RecurrencePicker.bundle */,
+				738C2FE30C3762A4F7AB8E46B606A751 /* RecurrencePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D9FEEB6B28CEC5D6BC4397EFA10441 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D27938A5EAF4D9A18FB43B12303AC3B /* Pods-RecurrencePicker_Example */,
+				7FE99E98C82D7AAE2BEA680E1CCC371D /* Pods-RecurrencePicker_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F19489B5E17EAA526F965D1319F1BB94 /* Products */ = {
+		BA1A83513E7EA106B30196E45C7975C1 /* RRule */ = {
 			isa = PBXGroup;
 			children = (
-				5657E160013A86719585C276FF4B0C64 /* Pods_RecurrencePicker_Example.framework */,
-				0002FCD9269F30C70377BC111C5B5154 /* Pods_RecurrencePicker_Tests.framework */,
-				12B94129FF9946D4E9A96B45CD141378 /* RecurrencePicker.bundle */,
-				570D1DD43D1846291DEBE1CF06876502 /* RecurrencePicker.framework */,
+				F37E31D2F26B135B45D722FB2AB8776D /* EKWeekday+RRule.swift */,
+				B7A606C656C4EBCC8C545012A29A95A7 /* ExclusionDate.swift */,
+				505751472ADF02C4D3494212213315D3 /* InclusionDate.swift */,
+				B132614CCF93C4D8F8EC8FC483812DAD /* Iterators.swift */,
+				9EDE064D87569F5A8045E8605D885A15 /* JavaScriptBridge.swift */,
+				DF1B4BEC005B1C0C3D237503EA3E4E1C /* NSDate+Comparison.swift */,
+				08F3C22508DA5C96880027FD1B105B76 /* RecurrenceFrequency.swift */,
+				A01F0BC8AF233A050FE6CD1ECFAB1D68 /* RecurrenceRule.swift */,
+				5D86E2BBFA84D790811A23C22E8F9D40 /* RRule.swift */,
+				FC43F08607538F86F78D348860FF53A7 /* RRuleSwift.h */,
+				12E70CC2051AB71F19DA319F0EAE7A75 /* lib */,
 			);
-			name = Products;
+			name = RRule;
+			path = RecurrencePicker/Classes/RecurrencePicker/RRule;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FFA3FE706FF178FC420AD582C8B9A615 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AFC194B2B2245BA4B3759FD6A3574EEC /* Products */,
+				B6D9FEEB6B28CEC5D6BC4397EFA10441 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E626EFCA096CD7C6602CD29C77DB5528 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B65634672F7431C491C41B9B0373EBC /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F3938922EFCCC616D85CB70B651BE7C2 /* LocalizedStrings */ = {
+			isa = PBXGroup;
+			children = (
+				799A0A0B2D6715B3891756FC4A137A01 /* RecurrencePicker.strings */,
+			);
+			path = LocalizedStrings;
+			sourceTree = "<group>";
+		};
+		FFA3FE706FF178FC420AD582C8B9A615 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				947B53AD3ABC394720453976BF4C1935 /* RecurrencePicker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		51CE441D4CC32D9BCC0DF815EC73BDE4 /* Headers */ = {
+		48B664E3DFF37AC7320F6CD287771068 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FE53817DFE7D0B4A7DE2445897381F /* Pods-RecurrencePicker_Tests-umbrella.h in Headers */,
+				F7CB5B2FD89B51DCB07965FD21B6ADF5 /* RecurrencePicker-umbrella.h in Headers */,
+				13E0DFE409303072624CCC7310CD2696 /* RRuleSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A959ED28980C93A46C09F97495E6F3AE /* Headers */ = {
+		CACC8CE1DBF988B97BA943909DEC10F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1B6E76B615A5B8BA142C88FA047615C /* Pods-RecurrencePicker_Example-umbrella.h in Headers */,
+				AE1DA97C2F427613D17E8FBB93F0E757 /* Pods-RecurrencePicker_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E418870B818CB14646CB1477A503A393 /* Headers */ = {
+		FFB3C732140C85F53B88E582BF5EABA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D26AD201EA3212F731A83EF97FD6A144 /* RecurrencePicker-umbrella.h in Headers */,
-				F88DB62D56BD14A0210E266DC7E7C299 /* RRuleSwift.h in Headers */,
+				6B6190E337BB3A639C59C9F73B17927D /* Pods-RecurrencePicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		34B06202BD5DD870A1AB9A84206D26B6 /* Pods-RecurrencePicker_Example */ = {
+		0B7AC06D7D710077E58A02CCF74FCF39 /* RecurrencePicker-RecurrencePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27029CC869761B5560CD47AD178EC889 /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Example" */;
+			buildConfigurationList = D87DC12FBDEF7F86FC6B4E21B34344A7 /* Build configuration list for PBXNativeTarget "RecurrencePicker-RecurrencePicker" */;
 			buildPhases = (
-				A959ED28980C93A46C09F97495E6F3AE /* Headers */,
-				CCC8D3F3F2A2A84F526E7FEAA2425D48 /* Sources */,
-				7704DFEB8BF2B603F6D471DEFC680BDA /* Frameworks */,
-				B961297BFA698EA1C6131CF257BB2317 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				74A6D79E68AC5439060919FD49AABE63 /* PBXTargetDependency */,
-			);
-			name = "Pods-RecurrencePicker_Example";
-			productName = "Pods-RecurrencePicker_Example";
-			productReference = 5657E160013A86719585C276FF4B0C64 /* Pods_RecurrencePicker_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		85C07C1B43872F9E1FA4F53C4BAC2837 /* Pods-RecurrencePicker_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C722E17F16DAE860C623E23172781E2 /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Tests" */;
-			buildPhases = (
-				51CE441D4CC32D9BCC0DF815EC73BDE4 /* Headers */,
-				5CC95E3A92AA33C2220556971FF485B4 /* Sources */,
-				DD85AD1090C1BBEB7915D42F5AF44846 /* Frameworks */,
-				D1F00D1A3B14C44CC3FD00C13106EB92 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A5E5AB8847049F9B3405B718FB1B51C4 /* PBXTargetDependency */,
-			);
-			name = "Pods-RecurrencePicker_Tests";
-			productName = "Pods-RecurrencePicker_Tests";
-			productReference = 0002FCD9269F30C70377BC111C5B5154 /* Pods_RecurrencePicker_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CFC5177EA656E840E6D40C5A9E498A03 /* RecurrencePicker-RecurrencePicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D2AA3E03902AA966C093115B98F4C1D /* Build configuration list for PBXNativeTarget "RecurrencePicker-RecurrencePicker" */;
-			buildPhases = (
-				580FA979805584CB65710A41956C55DA /* Sources */,
-				3242D8F1A96319CD7133EA9356585954 /* Frameworks */,
-				5A83B29149C57B6227CC508CA68FA772 /* Resources */,
+				273523AF98411CDFAA8873E39D562004 /* Sources */,
+				FA02FE143421635E4ECBB4AC97FDE100 /* Frameworks */,
+				991A7D53FACCA8793E81E9736A756B34 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -470,192 +438,239 @@
 			);
 			name = "RecurrencePicker-RecurrencePicker";
 			productName = "RecurrencePicker-RecurrencePicker";
-			productReference = 12B94129FF9946D4E9A96B45CD141378 /* RecurrencePicker.bundle */;
+			productReference = 2F18786E0ADB3401E8D5D380BB2D2029 /* RecurrencePicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		EE7AC8B08FFDCCCBAEB3BBB703475507 /* RecurrencePicker */ = {
+		9E247AF072458454A4C4F60A5ECDAF6B /* RecurrencePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0BAB6A368882EF66683423E5D7FC257 /* Build configuration list for PBXNativeTarget "RecurrencePicker" */;
+			buildConfigurationList = B45D849457E027ACF890806A160F0433 /* Build configuration list for PBXNativeTarget "RecurrencePicker" */;
 			buildPhases = (
-				E418870B818CB14646CB1477A503A393 /* Headers */,
-				21A330521B0428CD0DA7D9BA4CEE4B3B /* Sources */,
-				F9EE4127833506B805D183D0BDFB00BE /* Frameworks */,
-				6D6B965BFB1F0FEEC6919BF5B6A7B559 /* Resources */,
+				48B664E3DFF37AC7320F6CD287771068 /* Headers */,
+				2D2FA0088DDD9DE1BAFB5279B7D742D1 /* Sources */,
+				9B5353A4E59B3D13DB9AEFEBD86D52A5 /* Frameworks */,
+				887B02799C54E5BA8B13593A7F1B9961 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C985C7C86037B3250F0842781E4A930 /* PBXTargetDependency */,
+				FBC4FD6CF59B71929D886A0EF3FBB8B5 /* PBXTargetDependency */,
 			);
 			name = RecurrencePicker;
 			productName = RecurrencePicker;
-			productReference = 570D1DD43D1846291DEBE1CF06876502 /* RecurrencePicker.framework */;
+			productReference = 738C2FE30C3762A4F7AB8E46B606A751 /* RecurrencePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC3EE606881E0B17652A8739C157C98A /* Pods-RecurrencePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF43933AA1445E9E3B4DDB5C74CEE97C /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Example" */;
+			buildPhases = (
+				FFB3C732140C85F53B88E582BF5EABA1 /* Headers */,
+				E81AC22F5BCE33AE2688FF307337CD21 /* Sources */,
+				9ECE9BB87AA76A529D105019DD05821E /* Frameworks */,
+				08E4EDC31C834FEEEFF7A4AB73F3B98F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A410BD43795EBA92A0D2A0264AC56FD /* PBXTargetDependency */,
+			);
+			name = "Pods-RecurrencePicker_Example";
+			productName = "Pods-RecurrencePicker_Example";
+			productReference = CCA6D40630D7DBEA6FC9DE03DE80C7FC /* Pods_RecurrencePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F130947009662F9B5465E6304E777BF4 /* Pods-RecurrencePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD97870418834684105D7AB109EBA049 /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Tests" */;
+			buildPhases = (
+				CACC8CE1DBF988B97BA943909DEC10F5 /* Headers */,
+				6828772C7B5E4624DE1B9EC2395CA884 /* Sources */,
+				64CF46F7F39310E0123B15378FF41BF6 /* Frameworks */,
+				07D5BBBB2AED3B59385B248FDC55001B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8E33D24862F5D53261E79B8917D60E /* PBXTargetDependency */,
+			);
+			name = "Pods-RecurrencePicker_Tests";
+			productName = "Pods-RecurrencePicker_Tests";
+			productReference = 96913BDB7FF9C52D332FAA2E45A93BE3 /* Pods_RecurrencePicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
+				ko,
+				ru,
+				"zh-Hans",
+				"zh-Hant",
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F19489B5E17EAA526F965D1319F1BB94 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AFC194B2B2245BA4B3759FD6A3574EEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34B06202BD5DD870A1AB9A84206D26B6 /* Pods-RecurrencePicker_Example */,
-				85C07C1B43872F9E1FA4F53C4BAC2837 /* Pods-RecurrencePicker_Tests */,
-				EE7AC8B08FFDCCCBAEB3BBB703475507 /* RecurrencePicker */,
-				CFC5177EA656E840E6D40C5A9E498A03 /* RecurrencePicker-RecurrencePicker */,
+				CC3EE606881E0B17652A8739C157C98A /* Pods-RecurrencePicker_Example */,
+				F130947009662F9B5465E6304E777BF4 /* Pods-RecurrencePicker_Tests */,
+				9E247AF072458454A4C4F60A5ECDAF6B /* RecurrencePicker */,
+				0B7AC06D7D710077E58A02CCF74FCF39 /* RecurrencePicker-RecurrencePicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5A83B29149C57B6227CC508CA68FA772 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1B30B4D2235C9730858A586A53E62F0 /* checkmark@2x.png in Resources */,
-				0777F1DD53CF4D027F6500764423A245 /* checkmark@3x.png in Resources */,
-				DCBB2B9AED5E8D2BFFADF88CB1640E0E /* MonthOrDaySelectorCell.xib in Resources */,
-				1EC04D7D96FC0D85F5747083C0CD2893 /* PickerViewCell.xib in Resources */,
-				D5FB96AB03A4F4D0AEE387F158937599 /* RecurrencePicker.strings in Resources */,
-				1B6BA54EFC9E53006FCB92A154DE5156 /* SelectorItemCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D6B965BFB1F0FEEC6919BF5B6A7B559 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FF6083FBA2E2EE27E8319B540E3F5B6 /* checkmark@2x.png in Resources */,
-				80F2259C19E43E4ACB7F5B9A4327609D /* checkmark@3x.png in Resources */,
-				FA1FF290F87ED47C1EB91818EE9D1570 /* MonthOrDaySelectorCell.xib in Resources */,
-				F0728F4D4E96C69D4D2F4028894813C6 /* PickerViewCell.xib in Resources */,
-				EBE3EE7250847DD0FA5000CC5669AD66 /* RecurrencePicker.bundle in Resources */,
-				DB2DFBB8437A934FF9517098A2F1F22B /* RecurrencePicker.strings in Resources */,
-				D3E6F96B027F675B848F2DE970B46578 /* SelectorItemCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B961297BFA698EA1C6131CF257BB2317 /* Resources */ = {
+		07D5BBBB2AED3B59385B248FDC55001B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1F00D1A3B14C44CC3FD00C13106EB92 /* Resources */ = {
+		08E4EDC31C834FEEEFF7A4AB73F3B98F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887B02799C54E5BA8B13593A7F1B9961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2D3D69310DED42224E14F5158A410E /* checkmark@2x.png in Resources */,
+				D4E919588EFE9398A56965FF203E99BF /* checkmark@3x.png in Resources */,
+				672F8FC634EEBF934600922833393C79 /* MonthOrDaySelectorCell.xib in Resources */,
+				5FC8E3B1DD8CC612A1DD5830347EA54C /* nlp.js in Resources */,
+				85ACC0A6B6609E17037E8AC3C97255B8 /* PickerViewCell.xib in Resources */,
+				CB863DA85164DF0BC39F4DB154D6D8E4 /* RecurrencePicker.bundle in Resources */,
+				FAF01889F5E94E9D20AC39FAE0F9DE0B /* RecurrencePicker.strings in Resources */,
+				A775AD5CDD070B3E92BDDCE4D1904D9E /* rrule.js in Resources */,
+				FC7EE41E89FCA576E5699489287DC20D /* SelectorItemCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991A7D53FACCA8793E81E9736A756B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C0EED071CC802BC4612C7C1CD6AD62 /* checkmark@2x.png in Resources */,
+				B85842AB713CAE8FC03BE650D32F48FA /* checkmark@3x.png in Resources */,
+				D7B2EFAD695CFB6D3A6AEFE831AC6DCA /* MonthOrDaySelectorCell.xib in Resources */,
+				8C542FC0C5585176996ED7B3453DA94E /* nlp.js in Resources */,
+				759008F0E238536702F97048AF585DF6 /* PickerViewCell.xib in Resources */,
+				78AE409A30BF9108951237D0EB4A631F /* RecurrencePicker.strings in Resources */,
+				3585537F10E66A4841ECBDBC8D625AB7 /* rrule.js in Resources */,
+				24B60336315F228BE1801B708F2661AC /* SelectorItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21A330521B0428CD0DA7D9BA4CEE4B3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C1A7A17F43F1D7E44C9CB5320541929 /* Constants.swift in Sources */,
-				4C468B456A4979FA6827F6A3C0612934 /* CustomRecurrenceViewController.swift in Sources */,
-				C76841728A311F7CB2E188865D9C8ED9 /* EKWeekday+RRule.swift in Sources */,
-				63F24944C9F46A3CE9240EBE7D01B57B /* EKWeekday+Sequence.swift in Sources */,
-				7B6EAA407B8A24EAB7B1FE09E1CBDBA4 /* ExclusionDate.swift in Sources */,
-				586ABCC92E7796BB583157ACD27A70AD /* GridSelectorLayout.swift in Sources */,
-				D12F1732FD1F07A8C3DFDC6E1848AF23 /* InclusionDate.swift in Sources */,
-				432F06E7F095285B1285DFE873A23B4E /* InternationalControl.swift in Sources */,
-				B8948F8BEAA4573D0377A2128BCAA1AD /* Iterators.swift in Sources */,
-				30BDB5D516C2E8C5226E2C11827B9E22 /* JavaScriptBridge.swift in Sources */,
-				2B3E641BEB62FA68BC949D4F0B744936 /* MonthOrDaySelectorCell.swift in Sources */,
-				7A1B5B9AE3CFF571B9C101D0938AC56A /* nlp.js in Sources */,
-				63DFEFC66505883EA8D437E48ECF03BF /* NSDate+Comparison.swift in Sources */,
-				B7F9960475F2CE30CF88A73D2820FA9D /* PickerViewCell.swift in Sources */,
-				A8AFF3544F3F01CBF2D2EDA9D6F1C616 /* RecurrenceFrequency+Sequence.swift in Sources */,
-				5CCAB21E98D001014EBF62317BB3FB75 /* RecurrenceFrequency.swift in Sources */,
-				298704CD44DA1634E109CFE1DB314D2B /* RecurrencePicker-dummy.m in Sources */,
-				8F43BADC950775434B6DC9151D85D8AD /* RecurrencePicker.swift in Sources */,
-				5AF34C2090FC96B7F98AF55CD6D93EC4 /* RecurrencePickerDelegate.swift in Sources */,
-				5B6081F41CDB9F4C15B8DF6033348F80 /* RecurrenceRule+Definition.swift in Sources */,
-				1B46CBB6CD020A4930EA1807B2A7431D /* RecurrenceRule+Generator.swift in Sources */,
-				83E1567362213B870E2B6D410FA0B652 /* RecurrenceRule+Text.swift in Sources */,
-				1060A549334E11DE77CD827DDE5AED04 /* RecurrenceRule.swift in Sources */,
-				B0254145D6369D81E17B9E8126193D49 /* rrule.js in Sources */,
-				8539F8C232FDCD0D05247696B9D2C0CC /* RRule.swift in Sources */,
-				AE1FCF80F1B02F8DB9EF25B980A065F3 /* SelectorItemCell.swift in Sources */,
-				37A3B299C11095EA504358BEF2C1191E /* String+Extension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		580FA979805584CB65710A41956C55DA /* Sources */ = {
+		273523AF98411CDFAA8873E39D562004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC95E3A92AA33C2220556971FF485B4 /* Sources */ = {
+		2D2FA0088DDD9DE1BAFB5279B7D742D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF566B958A681CAF01337E12DF5A085D /* Pods-RecurrencePicker_Tests-dummy.m in Sources */,
+				4B3E38D4D8F9618A9824DD52BF8C1A51 /* Constants.swift in Sources */,
+				6A01940CB41B6F1B8AC14939E2D4E474 /* CustomRecurrenceViewController.swift in Sources */,
+				136C9E3B61A89D71F2B09F4B659B8E32 /* EKWeekday+RRule.swift in Sources */,
+				FA9426A5916F12F5675C1095F572FCF2 /* EKWeekday+Sequence.swift in Sources */,
+				81832525F31676F4BF5D84609E4962C3 /* ExclusionDate.swift in Sources */,
+				A5C93A95DBB113E9AEBBAD2BFB1103F9 /* GridSelectorLayout.swift in Sources */,
+				CFF53C40AAE7553D29B639CCCAE239A9 /* InclusionDate.swift in Sources */,
+				EB4756E09669B22E69CC78770849DE7A /* InternationalControl.swift in Sources */,
+				5428239F11E4D33B412A75E288A1C798 /* Iterators.swift in Sources */,
+				B853C691E8AA2004CDDF9311DBCD0020 /* JavaScriptBridge.swift in Sources */,
+				FAFDA4058E69392E8204EB880DD678D8 /* MonthOrDaySelectorCell.swift in Sources */,
+				1A3E9CACAEB1DEE37AAA822D2048D478 /* nlp.js in Sources */,
+				0E3BC0C1B99876F0FD1AE91F1244E41A /* NSDate+Comparison.swift in Sources */,
+				384E18F16FB1DEF7C63A2FD985E375EC /* PickerViewCell.swift in Sources */,
+				65C8B66AF7029D4FD77A8FA81DD90FD5 /* RecurrenceFrequency+Sequence.swift in Sources */,
+				230854B610367F83E93452B7545A7006 /* RecurrenceFrequency.swift in Sources */,
+				46E7FD14213B0FA0A9501F73F2360CDD /* RecurrencePicker-dummy.m in Sources */,
+				CB2C2972A3BE85C09C5F8E8561B41764 /* RecurrencePicker.swift in Sources */,
+				C37EBF700D626C14DFB16B28C9333385 /* RecurrencePickerDelegate.swift in Sources */,
+				BFEFD794E95B5F8280AA9900F296A465 /* RecurrenceRule+Definition.swift in Sources */,
+				FA0451F197567AB1FB819BAE777A97CC /* RecurrenceRule+Generator.swift in Sources */,
+				9CFFE5DA054E7FBF16E30F6B4EB5806C /* RecurrenceRule+Text.swift in Sources */,
+				C2E71F60B7BB64E57CA76AF99CAEE33A /* RecurrenceRule.swift in Sources */,
+				258C0E0785CBA0B15F2AC70643056F91 /* rrule.js in Sources */,
+				58B70FBB7FDDEC538942D6E217C7E6B6 /* RRule.swift in Sources */,
+				DE6C603F3DF07EF265805DD6D28808EA /* SelectorItemCell.swift in Sources */,
+				01F53A4E77CA16789655C4BFC3202652 /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCC8D3F3F2A2A84F526E7FEAA2425D48 /* Sources */ = {
+		6828772C7B5E4624DE1B9EC2395CA884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B6E8572BFA8DC36C94BEF28B392E30 /* Pods-RecurrencePicker_Example-dummy.m in Sources */,
+				1779E3EB5635835DE739691D0E00D2F2 /* Pods-RecurrencePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81AC22F5BCE33AE2688FF307337CD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F267E6B6A679F16C69353696D1F1BC35 /* Pods-RecurrencePicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C985C7C86037B3250F0842781E4A930 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RecurrencePicker-RecurrencePicker";
-			target = CFC5177EA656E840E6D40C5A9E498A03 /* RecurrencePicker-RecurrencePicker */;
-			targetProxy = F63270E8BCF67B68F7F9363D50F832CE /* PBXContainerItemProxy */;
-		};
-		74A6D79E68AC5439060919FD49AABE63 /* PBXTargetDependency */ = {
+		2A410BD43795EBA92A0D2A0264AC56FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RecurrencePicker;
-			target = EE7AC8B08FFDCCCBAEB3BBB703475507 /* RecurrencePicker */;
-			targetProxy = DB5FC54807D72572B5CED34875FDC8D8 /* PBXContainerItemProxy */;
+			target = 9E247AF072458454A4C4F60A5ECDAF6B /* RecurrencePicker */;
+			targetProxy = C9998342E6DCD43CD8FA41749BED69A1 /* PBXContainerItemProxy */;
 		};
-		A5E5AB8847049F9B3405B718FB1B51C4 /* PBXTargetDependency */ = {
+		6B8E33D24862F5D53261E79B8917D60E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RecurrencePicker_Example";
-			target = 34B06202BD5DD870A1AB9A84206D26B6 /* Pods-RecurrencePicker_Example */;
-			targetProxy = 6D1F18E60036214433813FA58B1E408A /* PBXContainerItemProxy */;
+			target = CC3EE606881E0B17652A8739C157C98A /* Pods-RecurrencePicker_Example */;
+			targetProxy = 4B8DFBDE4C89E9136D499CEA132B5765 /* PBXContainerItemProxy */;
+		};
+		FBC4FD6CF59B71929D886A0EF3FBB8B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RecurrencePicker-RecurrencePicker";
+			target = 0B7AC06D7D710077E58A02CCF74FCF39 /* RecurrencePicker-RecurrencePicker */;
+			targetProxy = 24DCAA120A93082A22BD2A7BAC787E81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		289F4A5EF3F3514758D9CE71A8FA815C /* RecurrencePicker.strings */ = {
+		799A0A0B2D6715B3891756FC4A137A01 /* RecurrencePicker.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				23D947F8D4C6DDC28C4CC0AFE2A7ECA6 /* RecurrencePicker.strings */,
-				2B7FDB1995A08C5BCF947E9503193161 /* RecurrencePicker.strings */,
-				34A75C58EC293C6A3028190727C4BD32 /* RecurrencePicker.strings */,
-				C096F89156FFEF4DB34DB79B35A8B457 /* RecurrencePicker.strings */,
-				73E9593767596CABCB5F332B1BDF967B /* RecurrencePicker.strings */,
-				E6C1CB8E2B364BB946398448AE44B7FE /* RecurrencePicker.strings */,
+				DE9F95B898354A0E2FDEF89D278E0A01 /* RecurrencePicker.strings */,
+				EC0D925080E2D79D6B359253502FF81A /* RecurrencePicker.strings */,
+				882F21E61E1E756666D459ED6CAB2C3A /* RecurrencePicker.strings */,
+				72B79B6DDE58E0A3CEE40B9EB04E8F11 /* RecurrencePicker.strings */,
+				AD56060829223E4AA1610E0364B4C90E /* RecurrencePicker.strings */,
+				4FAA9CE201EA1524C52B30620DC3E4C3 /* RecurrencePicker.strings */,
 			);
 			name = RecurrencePicker.strings;
 			path = .;
@@ -664,41 +679,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		15B57FC7A41F19CC88A2B487B3B285EC /* Debug */ = {
+		17159888EA5EA1CE162402B71FB6016B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RecurrencePicker/RecurrencePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RecurrencePicker/RecurrencePicker.modulemap";
-				PRODUCT_MODULE_NAME = RecurrencePicker;
-				PRODUCT_NAME = RecurrencePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		19E9DB4994EEA35863018492FC91F5CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93E0673A6DC9C7A51B2C035C31BFC1E5 /* Pods-RecurrencePicker_Tests.release.xcconfig */;
+			baseConfigurationReference = 1819ED05AC98537DE8CBE67DF9291FA9 /* Pods-RecurrencePicker_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -711,7 +694,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Tests/Pods-RecurrencePicker_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -731,92 +714,7 @@
 			};
 			name = Release;
 		};
-		19FDD27A0BE480DBB415CAA9D20BC301 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrencePicker";
-				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/ResourceBundle-RecurrencePicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = RecurrencePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		3683165D864A8878DF8CBF595C13C5A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A657DBAFB8F3045D2915520ECF45585 /* Pods-RecurrencePicker_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RecurrencePicker_Tests/Pods-RecurrencePicker_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5358873F7A756B252B3BBB6038CCC224 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1273D916EDF65C45F09B3CA020A9DF6B /* Pods-RecurrencePicker_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Pods-RecurrencePicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -848,8 +746,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -877,18 +773,85 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C97B272919330942C67A3C4F0B0EA297 /* Release */ = {
+		23CDE36255C2AB4801212789B027847F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */;
+			baseConfigurationReference = 594A83EB023A8941CFBD80AA32FEE603 /* Pods-RecurrencePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Tests/Pods-RecurrencePicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecurrencePicker_Tests/Pods-RecurrencePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29C45AE566A2C5FE6079B2CE7D08F20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD27D41C04C1BC89A49B75839D9498F /* RecurrencePicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RecurrencePicker/RecurrencePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/RecurrencePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecurrencePicker/RecurrencePicker.modulemap";
+				PRODUCT_MODULE_NAME = RecurrencePicker;
+				PRODUCT_NAME = RecurrencePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45258D416758B67ED6D52BD3E9AFAEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD27D41C04C1BC89A49B75839D9498F /* RecurrencePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrencePicker";
-				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/ResourceBundle-RecurrencePicker-Info.plist";
+				IBSC_MODULE = RecurrencePicker;
+				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = RecurrencePicker;
 				SDKROOT = iphoneos;
@@ -896,9 +859,111 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
+			name = Debug;
+		};
+		7F4F2FD0BA342B821B0865E4BAF8D973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D783D34124CF30A483DDC2BF149F007 /* Pods-RecurrencePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Pods-RecurrencePicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Pods-RecurrencePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		995DCA12E2288922E56385314531E152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD27D41C04C1BC89A49B75839D9498F /* RecurrencePicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RecurrencePicker/RecurrencePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/RecurrencePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecurrencePicker/RecurrencePicker.modulemap";
+				PRODUCT_MODULE_NAME = RecurrencePicker;
+				PRODUCT_NAME = RecurrencePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Release;
 		};
-		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
+		AF85C9B30EF45D5EA03276E55C3847CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED061BB0974472DD2A80AA99DB5BEFF /* Pods-RecurrencePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Pods-RecurrencePicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Pods-RecurrencePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -930,8 +995,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -954,127 +1017,77 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		F7695FB1B9FBB7DDB57F7FB8A9D4002C /* Debug */ = {
+		D9D94CC0EF5C6246AA9345CFB443BD96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E180BC4C365DF27DFEFDC98D702473F5 /* Pods-RecurrencePicker_Example.debug.xcconfig */;
+			baseConfigurationReference = BAD27D41C04C1BC89A49B75839D9498F /* RecurrencePicker.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrencePicker";
+				IBSC_MODULE = RecurrencePicker;
+				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RecurrencePicker_Example/Pods-RecurrencePicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE7C088642B61D25B2F36F457EBE6B6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9535E12024983CA0EF7A3165DBB29E4 /* RecurrencePicker.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RecurrencePicker/RecurrencePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RecurrencePicker/RecurrencePicker.modulemap";
-				PRODUCT_MODULE_NAME = RecurrencePicker;
 				PRODUCT_NAME = RecurrencePicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C722E17F16DAE860C623E23172781E2 /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3683165D864A8878DF8CBF595C13C5A8 /* Debug */,
-				19E9DB4994EEA35863018492FC91F5CE /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27029CC869761B5560CD47AD178EC889 /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Example" */ = {
+		B45D849457E027ACF890806A160F0433 /* Build configuration list for PBXNativeTarget "RecurrencePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7695FB1B9FBB7DDB57F7FB8A9D4002C /* Debug */,
-				5358873F7A756B252B3BBB6038CCC224 /* Release */,
+				29C45AE566A2C5FE6079B2CE7D08F20F /* Debug */,
+				995DCA12E2288922E56385314531E152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		D87DC12FBDEF7F86FC6B4E21B34344A7 /* Build configuration list for PBXNativeTarget "RecurrencePicker-RecurrencePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */,
-				D5F759C82752B2EB010DB3CD3D69707C /* Release */,
+				45258D416758B67ED6D52BD3E9AFAEF3 /* Debug */,
+				D9D94CC0EF5C6246AA9345CFB443BD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D2AA3E03902AA966C093115B98F4C1D /* Build configuration list for PBXNativeTarget "RecurrencePicker-RecurrencePicker" */ = {
+		DF43933AA1445E9E3B4DDB5C74CEE97C /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				19FDD27A0BE480DBB415CAA9D20BC301 /* Debug */,
-				C97B272919330942C67A3C4F0B0EA297 /* Release */,
+				7F4F2FD0BA342B821B0865E4BAF8D973 /* Debug */,
+				AF85C9B30EF45D5EA03276E55C3847CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0BAB6A368882EF66683423E5D7FC257 /* Build configuration list for PBXNativeTarget "RecurrencePicker" */ = {
+		FD97870418834684105D7AB109EBA049 /* Build configuration list for PBXNativeTarget "Pods-RecurrencePicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15B57FC7A41F19CC88A2B487B3B285EC /* Debug */,
-				FE7C088642B61D25B2F36F457EBE6B6C /* Release */,
+				23CDE36255C2AB4801212789B027847F /* Debug */,
+				17159888EA5EA1CE162402B71FB6016B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

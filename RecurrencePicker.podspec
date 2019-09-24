@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RecurrencePicker'
-  s.version          = '0.2.3'
+  s.version          = '0.3.0'
   s.summary          = 'An event recurrence rule picker similar to iOS system calendar.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ RecurrencePicker supports 6 languages: English, Russian, Simplified Chinese, Tra
     s.source           = { :git => 'https://github.com/petalvlad/RecurrencePicker.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '10.0'
-    s.swift_version = '4.2'
+    s.swift_version = '5'
 
     s.source_files = 'RecurrencePicker/Classes/**/*'
     s.resources = 'RecurrencePicker/**/*.{png,xib,strings,lproj,js}'
