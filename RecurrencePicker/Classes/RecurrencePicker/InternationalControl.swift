@@ -10,6 +10,7 @@ import Foundation
 
 public enum RecurrencePickerLanguage {
     case english
+    case german
     case simplifiedChinese
     case traditionalChinese
     case korean
@@ -29,6 +30,7 @@ public enum RecurrencePickerLanguage {
     
     internal var identifier: String {
         switch self {
+        case .german: return "de"
         case .english: return "en"
         case .simplifiedChinese: return "zh-Hans"
         case .traditionalChinese: return "zh-Hant"

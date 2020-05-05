@@ -1,0 +1,49 @@
+/* 
+  RecurrencePicker.strings
+  RecurrencePicker
+
+  Created by Xin Hong on 16/4/7.
+  Copyright © 2016年 Teambition. All rights reserved.
+*/
+
+"Done" = "Fertig";
+"Close" = "Schließen";
+
+"frequency.daily" = "Täglich";
+"frequency.weekly" = "Wöchentlich";
+"frequency.monthly" = "Monatlich";
+"frequency.yearly" = "Jährlich";
+
+"unit.day" = "Tag";
+"unit.week" = "Woche";
+"unit.month" = "Monat";
+"unit.year" = "Jahr";
+
+"pluralUnit.day" = "Tage";
+"pluralUnit.week" = "Wochen";
+"pluralUnit.month" = "Monate";
+"pluralUnit.year" = "Jahre";
+
+"basicRecurrence.never" = "Nie";
+"basicRecurrence.everyDay" = "Jeden Tag";
+"basicRecurrence.everyWeek" = "Jede Woche";
+"basicRecurrence.everyTwoWeeks" = "Alle 2 Wochen";
+"basicRecurrence.everyMonth" = "Jeden Monat";
+"basicRecurrence.everyYear" = "Jedes Jahr";
+"basicRecurrence.everyWeekday" = "Jeden Werktag";
+
+"RecurrencePicker.navigation.title" = "Wiederholen";
+"RecurrencePicker.textLabel.custom" = "Individuell";
+
+"CustomRecurrenceViewController.textLabel.frequency" = "Häufigkeit";
+"CustomRecurrenceViewController.textLabel.interval" = "Jede";
+
+"RecurrenceRuleText.basicRecurrence" = "Training erfolgt jede(n) %@.";
+"RecurrenceRuleText.element.on.weekly" = "an ";
+"RecurrenceRuleText.element.on.monthly" = "am ";
+"RecurrenceRuleText.element.on.yearly" = "in ";
+"RecurrenceRuleText.element.and" = "und ";
+"RecurrenceRuleText.element.comma" = ", ";
+"RecurrenceRuleText.element.day" = "%d";
+"RecurrenceRuleText.everyWeekday" = "Das Training findet jeden Werktag statt.";
+"RecurrenceRuleText.byWeekdaysOrMonthdaysOrMonths" = "Training erfolgt jede(n) %@ %@.";

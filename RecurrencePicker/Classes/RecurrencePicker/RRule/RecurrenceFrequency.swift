@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Teambition. All rights reserved.
 //
 
-public enum RecurrenceFrequency {
+public enum RecurrenceFrequency: String {
     case yearly
     case monthly
     case weekly
