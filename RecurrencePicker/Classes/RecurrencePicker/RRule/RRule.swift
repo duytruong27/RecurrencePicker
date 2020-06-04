@@ -13,7 +13,7 @@ public struct RRule {
     public static let dateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
-        dateFormatter.dateFormat = "yyyyMMdd'T'HHmmss'Z'"
+        dateFormatter.dateFormat = "yyyyMMdd"
         return dateFormatter
     }()
     public static let ymdDateFormatter: DateFormatter = {
