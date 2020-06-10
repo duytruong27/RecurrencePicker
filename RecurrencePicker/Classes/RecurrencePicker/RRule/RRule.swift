@@ -13,7 +13,7 @@ public struct RRule {
     public static let dateFormatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
-        dateFormatter.dateFormat = "yyyyMMdd"
+        dateFormatter.dateFormat = "yyyyMMdd'T'HHmmss'Z'"
         return dateFormatter
     }()
     public static let ymdDateFormatter: DateFormatter = {
@@ -29,6 +29,13 @@ public struct RRule {
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         return dateFormatter
     }()
+    
+    public static func date(from ruleValue: String) -> Date? {
+        if let d = dateFormatter.date(from: ruleValue) { return d }
+        if let d = ymdDateFormatter.date(from: ruleValue) { return d }
+        if let d = ISO8601DateFormatter.date(from: ruleValue) { return d }
+        return realDate(ruleValue)
+    }
 
     public static func ruleFromString(_ string: String) -> RecurrenceRule? {
         let string = string.trimmingCharacters(in: .whitespaces)
@@ -83,17 +90,13 @@ public struct RRule {
             }
 
             if ruleName == "DTSTART" {
-                if let startDate = dateFormatter.date(from: ruleValue) {
-                    recurrenceRule.startDate = startDate
-                } else if let startDate = realDate(ruleValue) {
+                if let startDate = date(from: ruleValue) {
                     recurrenceRule.startDate = startDate
                 }
             }
 
             if ruleName == "UNTIL" {
-                if let endDate = dateFormatter.date(from: ruleValue) {
-                    recurrenceRule.recurrenceEnd = EKRecurrenceEnd(end: endDate)
-                } else if let endDate = realDate(ruleValue) {
+                if let endDate = date(from: ruleValue) {
                     recurrenceRule.recurrenceEnd = EKRecurrenceEnd(end: endDate)
                 }
             } else if ruleName == "COUNT" {
@@ -202,9 +205,7 @@ public struct RRule {
         }
         
         if let dateStartString = dateStartComponents.last {
-            if let startDate = dateFormatter.date(from: dateStartString) {
-                recurrenceRule.startDate = startDate
-            } else if let startDate = realDate(dateStartString) {
+            if let startDate = date(from: dateStartString) {
                 recurrenceRule.startDate = startDate
             }
         }
