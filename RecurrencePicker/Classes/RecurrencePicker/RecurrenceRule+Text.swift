@@ -35,7 +35,7 @@ public extension RecurrenceRule {
                     }
                 }
             }
-            return unitString.lowercased()
+            return unitString
         }()
 
         switch frequency {
