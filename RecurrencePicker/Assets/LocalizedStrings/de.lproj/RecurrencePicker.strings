@@ -39,7 +39,7 @@
 "CustomRecurrenceViewController.textLabel.interval" = "Jede";
 
 "RecurrenceRuleText.basicRecurrence" = "Training erfolgt jede(n) %@.";
-"RecurrenceRuleText.element.on.weekly" = "an ";
+"RecurrenceRuleText.element.on.weekly" = "am ";
 "RecurrenceRuleText.element.on.monthly" = "am ";
 "RecurrenceRuleText.element.on.yearly" = "in ";
 "RecurrenceRuleText.element.and" = "und ";
