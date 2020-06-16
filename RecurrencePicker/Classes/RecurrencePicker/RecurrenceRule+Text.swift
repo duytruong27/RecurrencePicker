@@ -111,7 +111,7 @@ public extension RecurrenceRule {
                         prefixStr = internationalControl.localizedString("RecurrenceRuleText.element.comma")
                     }
 
-                    if language == .english {
+                    if language == .english || language == .german {
                         monthdaysString += prefixStr + " " + String.sequenceNumberString(of: bymonthday[index])
                     } else {
                         monthdaysString += prefixStr + " " + String(format: internationalControl.localizedString("RecurrenceRuleText.element.day"), bymonthday[index])
@@ -160,7 +160,7 @@ public extension RecurrenceRule {
                     }
                 }
 
-                if language != .english && language != .russian && language != .korean || language == .german {
+                if language != .english && language != .russian && language != .korean && language != .german {
                     monthsString.removeSubstring(" ")
                 }
 

@@ -150,6 +150,7 @@
 		DE9F95B898354A0E2FDEF89D278E0A01 /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = en.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
 		DF1B4BEC005B1C0C3D237503EA3E4E1C /* NSDate+Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSDate+Comparison.swift"; sourceTree = "<group>"; };
 		E008DEA1F4E7B4FA7DA4A9CA1FF4DAFE /* Pods-RecurrencePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Example.modulemap"; sourceTree = "<group>"; };
+		E1FC2A0E2498EA3900F0E3C1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
 		EB1CE44AB493D3AC09BB711CDEC34E21 /* checkmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "checkmark@3x.png"; sourceTree = "<group>"; };
 		EC0D925080E2D79D6B359253502FF81A /* RecurrencePicker.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = RecurrencePicker.strings; path = ja.lproj/RecurrencePicker.strings; sourceTree = "<group>"; };
 		EC97A0A105C0B4E5854CBC6BD4FABA00 /* Pods-RecurrencePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecurrencePicker_Tests.modulemap"; sourceTree = "<group>"; };
@@ -518,6 +519,7 @@
 				ru,
 				"zh-Hans",
 				"zh-Hant",
+				de,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = AFC194B2B2245BA4B3759FD6A3574EEC /* Products */;
@@ -671,6 +673,7 @@
 				72B79B6DDE58E0A3CEE40B9EB04E8F11 /* RecurrencePicker.strings */,
 				AD56060829223E4AA1610E0364B4C90E /* RecurrencePicker.strings */,
 				4FAA9CE201EA1524C52B30620DC3E4C3 /* RecurrencePicker.strings */,
+				E1FC2A0E2498EA3900F0E3C1 /* de */,
 			);
 			name = RecurrencePicker.strings;
 			path = .;
