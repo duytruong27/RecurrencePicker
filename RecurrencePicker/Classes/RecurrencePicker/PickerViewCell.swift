@@ -95,7 +95,7 @@ extension PickerViewCell: UIPickerViewDataSource, UIPickerViewDelegate {
             } else {                
                 let pluralUnit = Constant.pluralUnitStrings(interval: interval)[frequency.number]
                 let unit = interval == 1 ? Constant.unitStrings()[frequency.number] : String(format: pluralUnit, interval.description)
-                return unit.lowercased()
+                return unit
             }
         }
     }

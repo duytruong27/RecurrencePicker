@@ -26,7 +26,7 @@ public extension RecurrenceRule {
                         return unitString
                     }
                 } else {
-                    if language == .english {
+                    if language == .english || language == .german {
                         unitString = "\(interval)" + " " + pluralUnit
                     } else if language == .russian {
                         return String(format: pluralUnit, interval.description)
@@ -72,7 +72,7 @@ public extension RecurrenceRule {
                     weekdaysString += prefixString + " " + Constant.weekdaySymbols(of: language)[byweekday[index].number]
                 }
 
-                if language != .english && language != .russian && language != .korean {
+                if language != .english && language != .russian && language != .korean || language == .german {
                     weekdaysString.removeSubstring(" ")
                 }
 
@@ -118,7 +118,7 @@ public extension RecurrenceRule {
                     }
                 }
 
-                if language != .english && language != .russian && language != .korean {
+                if language != .english && language != .russian && language != .korean && language != .german {
                     monthdaysString.removeSubstring(" ")
                 } else if language == .korean {
                     monthdaysString += internationalControl.localizedString("RecurrenceRuleText.element.on.monthly")
@@ -137,7 +137,7 @@ public extension RecurrenceRule {
                 return String(format: internationalControl.localizedString("RecurrenceRuleText.basicRecurrence"), unitString)
             } else {
                 var monthsString: String
-                if language == .english || language == .russian {
+                if language == .english || language == .russian || language == .german {
                     monthsString = internationalControl.localizedString("RecurrenceRuleText.element.on.yearly") + " " + Constant.monthSymbols(of: language)[bymonth.first! - 1]
                 } else if language == .korean {
                     monthsString = Constant.monthSymbols(of: language)[bymonth.first! - 1]
@@ -153,14 +153,14 @@ public extension RecurrenceRule {
                         prefixStr = internationalControl.localizedString("RecurrenceRuleText.element.comma")
                     }
 
-                    if language == .english || language == .russian {
+                    if language == .english || language == .russian || language == .german {
                         monthsString += prefixStr + " " + Constant.monthSymbols(of: language)[bymonth[index] - 1]
                     } else {
                         monthsString += prefixStr + " " + Constant.shortMonthSymbols(of: language)[bymonth[index] - 1]
                     }
                 }
 
-                if language != .english && language != .russian && language != .korean {
+                if language != .english && language != .russian && language != .korean || language == .german {
                     monthsString.removeSubstring(" ")
                 }
 
