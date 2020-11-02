@@ -507,6 +507,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0B7AC06D7D710077E58A02CCF74FCF39 = {
+						DevelopmentTeam = 9CUZJ529RY;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -853,9 +858,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrencePicker";
+				DEVELOPMENT_TEAM = 9CUZJ529RY;
 				IBSC_MODULE = RecurrencePicker;
 				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ki-elements.RecurrencePicker";
 				PRODUCT_NAME = RecurrencePicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1031,9 +1038,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RecurrencePicker";
+				DEVELOPMENT_TEAM = 9CUZJ529RY;
 				IBSC_MODULE = RecurrencePicker;
 				INFOPLIST_FILE = "Target Support Files/RecurrencePicker/ResourceBundle-RecurrencePicker-RecurrencePicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.ki-elements.RecurrencePicker";
 				PRODUCT_NAME = RecurrencePicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
